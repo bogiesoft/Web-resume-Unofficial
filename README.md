@@ -1,2 +1,2 @@
 # Web-resume-Unofficial
-My new design web-resune
+เว็บresumeไม่เป็นทางการ // เเก้ของที่เป็นทางการ
