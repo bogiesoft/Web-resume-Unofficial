@@ -54,37 +54,41 @@ header{
 }
 #about-me-header{
     padding-bottom: 1em;
-    font-size: 42px;
+    font-size: 40px;
 }
 #personal-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
     color:white;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 4em;
     padding-bottom: 2em;
+    line-height: 60%;
 }
 #contact-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
     color:white;
     text-align: center;
-    padding-top: 5em;
+    padding-top: 4em;
     padding-bottom: 2em;
 }
 #contact-me-header{
-    font-size: 42px;
+    font-size: 40px;
 }
 #my-contact{
     margin:2em;
 }
 .contact-icon{
-    margin:6px;
-    padding:12px;
-    border:2px solid #FFC107;
+    /*padding: 5px 6px 5px 6px;
+    margin: 0px 5px 5px 5px;*/
+    margin-left: 2px;
+    width:52px;
+    height:50px;
+    border:1px solid #FFC107;
     color: white;
+    border-radius: 20%;
     background-color: #FFC107;
-
 }
 .contact-icon:hover{
     border-color: white;
@@ -94,15 +98,17 @@ header{
 #pdf-butt{
     font-size:20px;
     text-decoration: none;
-    border-radius:1px solid #CCDC39;
+    border:1px solid #CCDC39;
     background-color: #CCDC39;
     color: white;
-    width:70%;
+    width:65%;
     padding-top: 1em;
     padding-bottom: 1em;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 #pdf-butt:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 
