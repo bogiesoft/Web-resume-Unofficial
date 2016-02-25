@@ -1,6 +1,11 @@
 @font-face {
     font-family: FontAwesome;
-    src: url('fonts/FontAwesome.otf') format('otf');
+    src: url('fonts/fontawesome-webfont.woff');
+    src:local("font awesome");
+        url('fonts/fontawesome-webfont.eot'); format('eot');
+        url('fonts/fontawesome-webfont.woff') format('woff');
+        url('fonts/fontawesome-webfont.svg') format('svg');
+        url('fonts/FontAwessome.otf') format('otf');
 }
 /*----- global -----*/
 body {background-color:lightgray;}
@@ -53,9 +58,9 @@ header{
     width:100%;
 }
 #about-me-header{
-    padding-bottom: 1em;
     font-size: 40px;
 }
+#my-quote{padding-bottom:2em;}
 #personal-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
@@ -63,7 +68,6 @@ header{
     text-align: center;
     padding-top: 4em;
     padding-bottom: 2em;
-    line-height: 60%;
 }
 #contact-info{
     font-family: 'Open Sans', sans-serif;
