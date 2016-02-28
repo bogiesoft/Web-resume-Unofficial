@@ -21,8 +21,6 @@ header{
     border-radius: 100%;
     border:2px solid antiquewhite;
     top:5em;
-    margin-left: auto;
-    margin-right: auto;
 }
 .section-header{
     text-align:center;
@@ -317,8 +315,64 @@ div.meter span:before {
     color:white;
     text-align: center;
 }
-
-
 /*----- projects section -----*/
+.projects{
+    background-color:#03A9F4;
+    width:100%;
+    padding-bottom: 3em;
+}
+.pro-con{ padding-top: 1em;}
+#tm{
+    width:50%;
+    height:50%;
+    border: 1px solid white;
+}
+#tm:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#pg{
+    width:50%;
+    height:50%;
+    border: 1px solid white;
+}
+#pg:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#vs{
+    width:50%;
+    height:50%;
+    border: 1px solid white;
+}
+#vs:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+#ml{
+    width:50%;
+    height:50%;
+    border: 1px solid white;
+}
+#ml:hover{
+    opacity: 0.4;
+    filter: alpha(opacity=40); /* For IE8 and earlier */
+}
+.pro-sub-header-1{
+    font-family:Signika,sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+.pro-sub-header-2{
+    font-family:"Noto Sans",sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:white;
+}
+.pic-icon{
+    color: white;
+}
+
 
 /*----- activity section -----*/

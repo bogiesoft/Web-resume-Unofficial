@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5cab5385-ba13-426b-87ca-693b8a531f8b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bigdata2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/ppt-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/slack-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/trello-pic.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/word-pic.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/3dmodel_editor.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/phpstorm-pic.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/atom-pic.png" afterPath="$PROJECT_DIR$/img/atom-pic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/bootstrap-pic.png" afterPath="$PROJECT_DIR$/img/bootstrap-pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/codeblocks-pic.png" afterPath="$PROJECT_DIR$/img/codeblocks-pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/eclipse-pic.png" afterPath="$PROJECT_DIR$/img/eclipse-pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/git-pic.png" afterPath="$PROJECT_DIR$/img/git-pic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/github-pic.png" afterPath="$PROJECT_DIR$/img/github-pic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/phpstorm-pic.png" afterPath="$PROJECT_DIR$/img/phpstorm-pic.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/skill-pic.png" afterPath="$PROJECT_DIR$/img/skill-pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/opengl-pic.png" afterPath="$PROJECT_DIR$/img/opengl-pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/phpstorm.png" afterPath="$PROJECT_DIR$/img/phpstorm.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sourcetree-pic.png" afterPath="$PROJECT_DIR$/img/sourcetree-pic.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/sublime-pic.png" afterPath="$PROJECT_DIR$/img/sublime-pic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/ubuntu-pic.png" afterPath="$PROJECT_DIR$/img/ubuntu-pic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/vs-pic.png" afterPath="$PROJECT_DIR$/img/vs-pic.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -41,8 +43,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.32">
-              <caret line="119" column="83" selection-start-line="119" selection-start-column="83" selection-end-line="119" selection-end-column="83" />
+            <state vertical-scroll-proportion="-15.56">
+              <caret line="213" column="147" selection-start-line="213" selection-start-column="147" selection-end-line="213" selection-end-column="147" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -55,8 +57,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8898451">
-              <caret line="213" column="81" selection-start-line="213" selection-start-column="81" selection-end-line="213" selection-end-column="81" />
+            <state vertical-scroll-proportion="0.3666093">
+              <caret line="321" column="21" selection-start-line="321" selection-start-column="21" selection-end-line="321" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -137,6 +139,9 @@
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
       <method />
@@ -160,6 +165,18 @@
       <command value="run-script" />
       <scripts />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
       <method />
     </configuration>
     <list size="1">
@@ -722,8 +739,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.32">
-          <caret line="119" column="83" selection-start-line="119" selection-start-column="83" selection-end-line="119" selection-end-column="83" />
+        <state vertical-scroll-proportion="-15.56">
+          <caret line="213" column="147" selection-start-line="213" selection-start-column="147" selection-end-line="213" selection-end-column="147" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#1;n#div#0;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#div#1;n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -734,8 +751,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8898451">
-          <caret line="213" column="81" selection-start-line="213" selection-start-column="81" selection-end-line="213" selection-end-column="81" />
+        <state vertical-scroll-proportion="0.3666093">
+          <caret line="321" column="21" selection-start-line="321" selection-start-column="21" selection-end-line="321" selection-end-column="21" />
           <folding />
         </state>
       </provider>
