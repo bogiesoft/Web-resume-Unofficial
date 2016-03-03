@@ -389,6 +389,12 @@ div.meter span:before {
     height:50%;
     border: 1px solid white;
 }
+.YT-ico{
+    color: red;
+    border-radius: 2px;
+    padding: 2px;
+}
+.YT-ico:hover{color:white;}
 #tm:hover{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
