@@ -141,7 +141,7 @@ header{
     font-size:35px;
     color:white;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 3em;
     padding-bottom: 2em;
 }
 #contact-info{
@@ -149,7 +149,7 @@ header{
     font-size:35px;
     color:white;
     text-align: center;
-    padding-top: 4em;
+    padding-top: 3em;
     padding-bottom: 2em;
 }
 #contact-me-header{
@@ -179,7 +179,7 @@ header{
     text-decoration: none;
     border:1px solid white;
     background-color: white;
-    color: #4CAF50;
+    color: #F44336;
     width:65%;
     padding-top: 1em;
     padding-bottom: 1em;
@@ -278,7 +278,6 @@ header{
   text-align: center;
   padding-top: 1em;
 }
-#wp{left:1%;}
 .skill-row{
     padding-top: 2em;
     padding-bottom: 3em;
