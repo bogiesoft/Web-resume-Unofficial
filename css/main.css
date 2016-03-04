@@ -311,10 +311,12 @@ header{
 }
 .YT-ico{
     color: red;
-    border-radius: 2px;
-    padding: 2px;
 }
 .YT-ico:hover{color:white;}
+.FB-ico{
+    color:white;
+}
+.FB-ico:hover{color:blue;}
 #tm:hover{
     opacity: 0.4;
     filter: alpha(opacity=40); /* For IE8 and earlier */
