@@ -2,11 +2,16 @@
 <html>
 
   <head>
-      <meta name="description" content="resume website designed and implemented by Oeuf">
+      <title>Oeuf's portfolio</title>
+
+      <meta name="description" content="Portfolio website designed and implemented by Oeuf">
       <meta name="author" content="Pitarn Hanpanichpun">
       <meta charset="utf-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+      <meta property="og:title" content="Oeuf's web portfolio" />
+      <meta property="og:description" content="Portfolio website designed by Oeuf." />
+      <meta property="og:image" content="https://goo.gl/8SpQCA" />
 
       <!-- Bootstrap Core CSS -->
       <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -40,7 +45,6 @@
       <script src="js/bootstrap.min.js"></script>
       <script src="js/owl.carousel.js"></script>
       <script type="text/javascript" src="js/bootstrap-progressbar.min.js"></script>
-      <title>Oeuf's resume</title>
   </head>
   <body>
    <header>
@@ -224,10 +228,10 @@
                 </p>
                 <p class="center-block pro-sub-header-2"><strong>Tools</strong>: Arduino(C)</p>
             </div>
-      </div>
-    </section>
-   <div><img src="img/activity-pic.png" class="center-block img-responsive section-logo"></div>
-    <section class="activity">
+       </div>
+     </section>
+     <div><img src="img/activity-pic.png" class="center-block img-responsive section-logo"></div>
+     <section class="activity">
         <div class="center-block section-header">Past Activities</div>
         <div class="container act-row">
            <div class="col-xs-12 col-md-6 center-block">
@@ -300,7 +304,6 @@
 
             });
         });
-
         $(document).ready(function(){
             $('a[href^="#my-profile-pic"]').on('click',function (e) {
                 e.preventDefault();
@@ -317,14 +320,14 @@
         });
         if ($('#back-to-top').length) {
             var scrollTrigger = 100, // px
-                    backToTop = function () {
-                        var scrollTop = $(window).scrollTop();
-                        if (scrollTop > scrollTrigger) {
-                            $('#back-to-top').addClass('show');
-                        } else {
-                            $('#back-to-top').removeClass('show');
-                        }
-                    };
+                 backToTop = function () {
+                    var scrollTop = $(window).scrollTop();
+                    if (scrollTop > scrollTrigger) {
+                        $('#back-to-top').addClass('show');
+                    } else {
+                        $('#back-to-top').removeClass('show');
+                    }
+                 };
             backToTop();
             $(window).on('scroll', function () {
                 backToTop();
@@ -365,7 +368,6 @@
            }
        }
 
-
        // Capture scroll events
        $(window).scroll(function () {
            $('.progress-bar').each(function(){
@@ -373,5 +375,16 @@
            });
        });
     </script>
-</body>
+   <!-- Hotjar Tracking Code for http://oeufhp.me -->
+   <script>
+       (function(h,o,t,j,a,r){
+           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+           h._hjSettings={hjid:166502,hjsv:5};
+           a=o.getElementsByTagName('head')[0];
+           r=o.createElement('script');r.async=1;
+           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+           a.appendChild(r);
+       })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+   </script>
+  </body>
 </html>
