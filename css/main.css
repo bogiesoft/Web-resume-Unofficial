@@ -10,6 +10,7 @@
 body {
     background-color:lightgray;
 }
+.row{width: 100%;}
 header{
     background-color:#009688;
     width:100%;
@@ -84,7 +85,6 @@ header{
     position: relative;
     bottom:2em;
     float: right;
-    right:5%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     overflow:hidden;
     -webkit-transition: all 0.2s ease;
@@ -128,10 +128,8 @@ header{
     border-radius: 100%;
     border:2px solid antiquewhite;
     top:7em;
-    margin-left: auto;
-    margin-right: auto;
     box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    left: 3%;
+    /*left: 3%;*/
 }
 .my-info{
     background-color: #727272;
