@@ -70,13 +70,6 @@ header{
     color: white;
     text-align: center;
 }
-#my-quote{
-    color: white;
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
 .arrow{
     border:1px solid #CDDC39;
     border-radius: 100%;

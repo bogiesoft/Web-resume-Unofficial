@@ -24,6 +24,14 @@ body{
   font-size: 3em;
   color:#448AFF;
 }
+@media screen and (max-width: 360px){
+  #welcome-paragraph{
+    font-size:2em;
+  }
+  #my-name{
+    font-size: 2em;
+  }
+}
 .entersite-butt{
   font-size:15px;
   text-decoration: none;
@@ -36,11 +44,6 @@ body{
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   border-radius: 5px;
-  @media screen and (max-device-width: 360px){
-    .entersite-butt{
-      width:100px;
-    }
-  }
 }
 .entersite-butt:hover{
   /*box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);*/
