@@ -50,3 +50,6 @@ body{
   background-color: #B6B6B6;
   color:white;
 }
+@media query {
+   .entersite-butt{width:150px;}  
+}
