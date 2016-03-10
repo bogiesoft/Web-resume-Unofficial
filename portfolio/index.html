@@ -35,8 +35,8 @@
       <link href='https://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
       <link href="css/owl.carousel.css" rel="stylesheet">
       <link href="css/owl.theme.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/main.min.css">
-      <!-- <link rel="stylesheet" href="css/main.css"> -->
+      <!-- <link rel="stylesheet" href="css/main.min.css"> -->
+      <link rel="stylesheet" href="css/main.css">
       <link rel="manifest" href="/manifest.json">
       <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -285,7 +285,7 @@
                var imagePos = $(this).offset().top;
 
                var topOfWindow = $(window).scrollTop();
-               if (imagePos < topOfWindow+500) {
+               if (imagePos < topOfWindow+520) {
                    $(this).addClass("slideUp");
                }
            });
@@ -346,7 +346,7 @@
                 e.preventDefault();
                 $('html,body').animate({
                     scrollTop: 0
-                }, 900);
+                }, 800);
             });
         }
       $('.progress .progress-bar').progressbar();
