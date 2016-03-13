@@ -171,20 +171,12 @@
                  <p class="tool-sub-header">Sourcetree</p>
              </div>
              <div class="center-block col-xs-6 col-sm-4 col-md-3">
-                 <div class="tool-pic"><img src="img/sublime-pic.png" class="center-block img-responsive"></div>
-                 <p class="tool-sub-header">Sublime Text</p>
+                 <div class="tool-pic"><img src="img/laravel-pic.png" class="center-block img-responsive"></div>
+                 <p class="tool-sub-header">Laravel</p>
              </div>
              <div class="center-block col-xs-6 col-sm-4 col-md-3">
-                 <div class="tool-pic"><img src="img/atom-pic.png" class="center-block img-responsive"></div>
-                 <p class="tool-sub-header">Atoms.</p>
-             </div>
-             <div class="center-block col-xs-6 col-sm-4 col-md-3">
-                 <div class="tool-pic"><img src="img/vs-pic.png" class="center-block img-responsive"></div>
-                 <p class="tool-sub-header">Visual Studio</p>
-             </div>
-             <div class="center-block col-xs-6 col-sm-4 col-md-3">
-                 <div class="tool-pic"><img src="img/opengl-pic.png" class="center-block img-responsive"></div>
-                 <p class="tool-sub-header">OpenGL</p>
+                 <div class="tool-pic"><img src="img/mysql-pic.png" class="center-block img-responsive"></div>
+                 <p class="tool-sub-header">MySQL</p>
              </div>
              <div class="center-block col-xs-6 col-sm-4 col-md-3">
                  <div class="tool-pic"><img src="img/codeblocks-pic.png" class="center-block img-responsive"></div>
@@ -198,7 +190,40 @@
                  <div class="tool-pic"><img src="img/ubuntu-pic.png" class="center-block img-responsive"></div>
                  <p class="tool-sub-header">Ubuntu</p>
              </div>
+             <div class="center-block col-xs-6 col-sm-4 col-md-3">
+                 <div class="tool-pic"><img src="img/vs-pic.png" class="center-block img-responsive"></div>
+                 <p class="tool-sub-header">Visual Studio</p>
+             </div>
+             <div class="center-block col-xs-6 col-sm-4 col-md-3">
+                 <div class="tool-pic"><img src="img/opengl-pic.png" class="center-block img-responsive"></div>
+                 <p class="tool-sub-header">OpenGL</p>
+             </div>
          </div>
+         <hr style="color:white; width:90%;">
+         <div class="container">
+            <p style="font-family:'Open Sans',sans-serif; font-size: 25px;color:white; text-align: center;">Other tools  <i class="fa fa-gavel"></i></p>
+            <div class="center-block col-xs-6 col-sm-4 col-md-3">
+              <div class="tool-pic"><img src="img/MSWord-pic.png" class="center-block img-responsive"></div>
+              <p class="tool-sub-header">Word</p>
+            </div>
+            <div class="center-block col-xs-6 col-sm-4 col-md-3">
+              <div class="tool-pic"><img src="img/MSPPT-pic.png" class="center-block img-responsive"></div>
+              <p class="tool-sub-header">Powerpoint</p>
+            </div>
+            <div class="center-block col-xs-6 col-sm-4 col-md-3">
+              <div class="tool-pic"><img src="img/PS-pic.png" class="center-block img-responsive"></div>
+              <p class="tool-sub-header">Photoshop</p>
+            </div>
+            <div class="center-block col-xs-6 col-sm-4 col-md-3">
+              <div class="tool-pic"><img src="img/sublime-pic.png" class="center-block img-responsive"></div>
+              <p class="tool-sub-header">Sublime text</p>
+            </div>
+             <div class="center-block col-xs-6 col-sm-4 col-md-3">
+                 <div class="tool-pic"><img src="img/atom-pic.png" class="center-block img-responsive"></div>
+                 <p class="tool-sub-header">Atoms</p>
+             </div>
+         </div>
+
      </section>
    <div><img src="img/project-pic.png" class="center-block img-responsive section-logo"></div>
     <section class="projects">
@@ -299,25 +324,19 @@
         });
         $(document).ready(function() {
             $("#owl-demo").owlCarousel({
-
                 navigation : true, // Show next and prev buttons
                 slideSpeed : 300,
                 paginationSpeed : 400,
                 singleItem:true,
                 autoPlay:3000,
                 autoHeight:true,
-
                 // "singleItem:true" is a shortcut for:
                 // items : 1,
                 // itemsDesktop : false,
                 // itemsDesktopSmall : false,
                 // itemsTablet: false,
                 // itemsMobile : false
-
             });
-        });
-        $(document).ready(function(){
-            $('.materialboxed').materialbox();
         });
         $(document).ready(function(){
             $('a[href^="#my-profile-pic"]').on('click',function (e) {
@@ -326,7 +345,7 @@
                 var target = this.hash;
                 var $target = $(target);
 
-                $('html, body').stop().animate({
+                $('html, body').animate({
                     'scrollTop': $target.offset().top
                 }, 900, 'swing', function () {
                     window.location.hash = target;
@@ -382,7 +401,6 @@
                $elem.css('width',bar_width + '%');
            }
        }
-
        // Capture scroll events
        $(window).scroll(function () {
            $('.progress-bar').each(function(){
@@ -390,16 +408,5 @@
            });
        });
     </script>
-   <!-- Hotjar Tracking Code for http://oeufhp.me -->
-   <script>
-       (function(h,o,t,j,a,r){
-           h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-           h._hjSettings={hjid:166502,hjsv:5};
-           a=o.getElementsByTagName('head')[0];
-           r=o.createElement('script');r.async=1;
-           r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-           a.appendChild(r);
-       })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
-   </script>
   </body>
 </html>
