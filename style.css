@@ -34,12 +34,12 @@ div{width:100%;}
   }
 }
 .entersite-butt{
-  font-size:15px;
+  font-size:20px;
   text-decoration: none;
   border:2px solid #727272;
   background-color: transparent;
   color: #2196F3;
-  width:200px;
+  width:250px;
   padding-top: 10px;
   padding-bottom: 10px;
   -webkit-transition-duration: 0.4s; /* Safari */
@@ -51,7 +51,10 @@ div{width:100%;}
   color:white;
 }
 @media query {
-   .entersite-butt{width:150px;}
+   .entersite-butt{
+     width:150px;
+     font-size: 15px;
+   }
 }
 #contacts{
  margin-top:7em;
@@ -60,8 +63,8 @@ div{width:100%;}
 #contacts a button{
   padding:10px;
   margin: 2px;
-  border:3px solid grey;
-  background-color: grey;
+  border:3px solid #E0E0E0;
+  background-color: #E0E0E0;
   border-radius: 10px;
 }
 @media screen and (max-device-width:420px) {
@@ -72,8 +75,8 @@ div{width:100%;}
   #contacts a button{
     padding:10px;
     margin: 1px;
-    border:2px solid #455A64;
-    background-color: #455A64;
+    border:2px solid #F5F5F5;
+    background-color: #F5F5F5;
     border-radius: 10px;
   }
 }
