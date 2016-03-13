@@ -10,7 +10,7 @@
 body{
   width: 100%;
   background-image:url("homepage-cover.jpg");
-  background-size:100%;
+  background-size:auto;
   font-family: 'Oxygen', sans-serif;
 }
 .container{width: 100%;}
