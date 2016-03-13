@@ -22,7 +22,7 @@ div{width:100%;}
 }
 #my-name{
   font-family: 'Pacifico',cursive;
-  font-size: 3em;
+  font-size: 2em;
   color:#448AFF;
 }
 @media screen and (max-width: 360px){
@@ -30,7 +30,7 @@ div{width:100%;}
     font-size:2em;
   }
   #my-name{
-    font-size: 2em;
+    font-size: 1em;
   }
 }
 .entersite-butt{
