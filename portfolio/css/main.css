@@ -90,6 +90,11 @@ header{
     transition: all 0.2s ease;
     z-index:0;
 }
+@media screen and (max-device-width:420px){
+  .arrow{
+    padding: 10px;
+  }
+}
 .arrow:hover{
     z-index:1000;
     box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
@@ -111,8 +116,8 @@ header{
 }
 @media screen and (max-device-width: 420px){
     .my-pic{
-        width:150px;
-        height:150px;
+        width:170px;
+        height:170px;
     }
 }
 .my-info{
@@ -131,6 +136,16 @@ header{
     text-align: center;
     padding-top: 3em;
 }
+.visible-phone-line{visibility: hidden;}
+
+@media screen and (max-device-width: 420px) {
+    .visible-phone-line {
+        visibility: visible;
+        width:92.1875%;
+        margin-top:2vh;
+    }
+}
+
 #contact-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
@@ -138,6 +153,12 @@ header{
     text-align: center;
     padding-top: 3em;
     padding-bottom: 2em;
+}
+@media screen and (max-device-width:420px){
+  #contact-info{
+    padding-top: 1em;
+    padding-bottom: 3em;
+  }
 }
 #contact-me-header{
     font-family: 'Maven Pro', sans-serif;
@@ -179,7 +200,7 @@ header{
 }
 @media screen and (max-width:420px){
    #pdf-butt{
-     width:170px;
+     width:180px;
    }
 }
 #pdf-butt:hover{
@@ -209,15 +230,6 @@ header{
     text-align: center;
     padding-top: 2em;
 }
-.visible-phone-line{visibility: hidden;}
-
-@media screen and (max-device-width: 420px) {
-    .visible-phone-line {
-        visibility: visible;
-        width:92.1875%;
-        top:2em;
-    }
-}
 .tu-pic{
     border:1px solid white;
     background-color: white;
@@ -226,8 +238,8 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-device-width: 420px){
-    .tu-pic{width: 70%;}
-    .cu-pic{width: 70%;}
+    .tu-pic{width: 65%;}
+    .cu-pic{width: 80%;}
 }
 .cu-pic{
     border:1px solid white;
@@ -261,7 +273,7 @@ header{
 }
 @media screen and (max-device-width: 420px){
     .int-pic{
-        width:60%;
+        width:45%;
     }
 }
 .int-sub-header{
@@ -283,6 +295,11 @@ header{
     border-radius: 25px;
     padding-bottom: 1em;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media screen and (max-device-width:420px){
+  .skill-pic{
+    width:45%;
+  }
 }
 .pro-lang{
   font-family:'Alegreya Sans',sans-serif;
@@ -443,7 +460,7 @@ header{
     filter: alpha(opacity=40); /* For IE8 and earlier */
 }
 .pro-sub-header-1{
-    font-family:Signika,sans-serif;
+    font-family:"Signika",sans-serif;
     font-size: 25px;
     text-align: center;
     color: white;
