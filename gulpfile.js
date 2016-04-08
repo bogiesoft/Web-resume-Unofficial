@@ -1,14 +1,14 @@
 var gulp = require('gulp');
-// var less = require('gulp-less');
-var path = require('path');
-var cleanCSS = require('gulp-clean-css');
-	
-gulp.task('minify-css', function() {
-  	return gulp.src('/*.css')
-    .pipe(cleanCSS({compatibility: 'ie8'}))
-    .pipe(gulp.dest('./'));
+var cssmin = require('gulp-cssmin');
+var rename = require('gulp-rename');
+
+gulp.task('mincss',function () {
+	gulp.src('src/**/*.css')
+		.pipe(cssmin())
+		.pipe(rename({suffix: '.min'}))
+		.pipe(gulp.dest('/'));
 });
 
-gulp.task('default', ['minify-css'], function() {
-    gulp.watch("./css/**/*.css", ['css']);
+gulp.task('default',['mincss'],function(){
+	 gulp.watch("scss/**/*.css", ['mincss']);
 });
