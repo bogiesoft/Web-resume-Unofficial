@@ -52,10 +52,11 @@ div{width:100%;}
     padding-top: 1em;
   }
 }
-
+#es-link{
+  text-decoration: none;
+}
 .entersite-butt{
   font-size:20px;
-  text-decoration: none;
   border:2px solid #727272;
   background-color: transparent;
   color: #2196F3;
@@ -94,7 +95,7 @@ div{width:100%;}
     background-color: #F5F5F5;
     border-radius: 10px;
   }
-  
+
 }
 #fb-icon{
   color:#3b5998;
