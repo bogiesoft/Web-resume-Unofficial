@@ -13,11 +13,15 @@ body{
   background-size:auto;
   font-family: 'Oxygen', sans-serif;
 }
-.container{width: 100%;}
+.container{
+  width: 100%;
+ }
 div{width:100%;}
 #welcome-paragraph{
+  text-align: center;
+  margin-right: 2em;
    font-size: 3em;
-   color: white;
+   color: #757575;
    padding-top: 3em;
 }
 #my-name{
@@ -25,14 +29,30 @@ div{width:100%;}
   font-size: 2em;
   color:#448AFF;
 }
-@media screen and (max-width: 360px){
+#myquote{
+  font-family:'Oxygen',sans-serif;
+  font-size:1.8em;
+  color:#616161;
+  /*padding-bottom:2em; */
+  text-align:center;
+}
+@media screen and (max-width: 420px){
   #welcome-paragraph{
     font-size:2em;
+    color: white;
+    padding-top: 3em;
   }
   #my-name{
-    font-size: 1em;
+    font-size: 1.2em;
+    color:#CDDC39;
+  }
+  #myquote{
+    font-size: 1.4em;
+    color:white;
+    padding-top: 1em;
   }
 }
+
 .entersite-butt{
   font-size:20px;
   text-decoration: none;
@@ -50,17 +70,20 @@ div{width:100%;}
   background-color: #727272;
   color:white;
 }
-@media query {
+@media screen and (max-width: 420px) {
    .entersite-butt{
-     width:120px;
-     font-size: 12px;
+     width:180px;
+     font-size: 15px;
    }
+}
+#contacts{
+  float: right;
 }
 #contacts a button{
   padding:10px;
   margin: 2px;
-  border:3px solid #E0E0E0;
-  background-color: #E0E0E0;
+  border:3px solid #9E9E9E;
+  background-color: #9E9E9E;
   border-radius: 10px;
 }
 @media screen and (max-device-width:420px) {
@@ -71,6 +94,7 @@ div{width:100%;}
     background-color: #F5F5F5;
     border-radius: 10px;
   }
+  
 }
 #fb-icon{
   color:#3b5998;
