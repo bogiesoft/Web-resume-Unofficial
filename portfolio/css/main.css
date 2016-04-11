@@ -198,17 +198,17 @@ header{
 }
 
 #pdf-butt{
-    font-size:20px;
+    font-size:25px;
     text-decoration: none;
     border:1px solid white;
     background-color: white;
     color: #F44336;
-    width:300px;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    width:250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 @media screen and (max-width:420px){
    #pdf-butt{
