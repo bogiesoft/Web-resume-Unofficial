@@ -133,7 +133,7 @@ header{
     background-color: #727272;
     width:90%;
     border-radius: 10px;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
 }
 #about-me-header{
@@ -224,7 +224,7 @@ header{
     background-color: #009688;
     width:90%;
     border-radius: 10px;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 }
 #edu-row{
     padding-top:1em;
@@ -254,7 +254,7 @@ header{
     background-color: white;
     padding: 3em;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-device-width: 420px){
     .tu-pic{width: 65%;}
@@ -265,7 +265,7 @@ header{
     background-color: white;
     padding: 3em;
     border-radius: 25px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
 }
 .cu-name{
     font-family:'Roboto',sans-serif;
@@ -279,7 +279,7 @@ header{
     background-color: #727272;
     width:90%;
     border-radius: 10px;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 }
 .int-row{
     padding-top: 2em;
@@ -309,7 +309,7 @@ header{
   background-color: #009688;
     width:90%;
     border-radius: 10px;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
 }
 .skill-pic{
@@ -318,7 +318,7 @@ header{
     padding: 1em;
     border-radius: 25px;
     padding-bottom: 1em;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-device-width:420px){
   .skill-pic{
@@ -421,7 +421,7 @@ header{
     border-radius: 10px;
     background-color:#727272;
     padding-bottom: 3em;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
 }
 .tool-pic{
@@ -445,8 +445,7 @@ header{
     width:90%;
     border-radius: 10px;
     padding-bottom: 3em;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
-
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 }
 .pro-con{ padding-top: 1em;}
 .pro-pic{
@@ -484,7 +483,7 @@ header{
     border-radius: 10px;
     background-color:#727272;
     padding-bottom: 3em;
-    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24),0 8px 30px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
 }
 .act-row{
