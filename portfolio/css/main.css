@@ -212,7 +212,7 @@ header{
 }
 @media screen and (max-width:420px){
    #pdf-butt{
-     width:180px;
+     width:200px;
    }
 }
 #pdf-butt:hover{

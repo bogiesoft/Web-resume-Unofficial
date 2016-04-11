@@ -9,8 +9,6 @@
 }
 body{
   width: 100%;
-  background-image:url("homepage-cover.jpg");
-  background-size:auto;
   font-family: 'Oxygen', sans-serif;
 }
 .container{
@@ -21,18 +19,18 @@ div{width:100%;}
   text-align: center;
   /*margin-right: 2em;*/
    font-size: 3em;
-   color: #757575;
+   color: white;
    padding-top: 3em;
 }
 #my-name{
   font-family: 'Bree Serif', serif;
   font-size: 2em;
-  color:#448AFF;
+  color:#CDDC39;
 }
 #myquote{
   font-family:'Oxygen',sans-serif;
   font-size:1.8em;
-  color:#616161;
+  color:white;
   /*padding-bottom:2em; */
   text-align:center;
 }
@@ -57,22 +55,22 @@ div{width:100%;}
 }
 .entersite-butt{
   font-size:20px;
-  border:2px solid #727272;
+  border:2px solid #FFEE58;
   background-color: transparent;
-  color: #2196F3;
+  color: #FFEE58;
   width:250px;
   padding-top: 10px;
   padding-bottom: 10px;
-  margin-top: 1em;
+  margin-top: 2em;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   border-radius: 5px;
 }
 .pdf-butt{
   font-size:20px;
-  border:2px solid #727272;
+  border:2px solid white;
   background-color: transparent;
-  color: #F44336;
+  color: white;
   width:250px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -82,20 +80,19 @@ div{width:100%;}
   border-radius: 5px;
 }
 .entersite-butt:hover{
-  background-color: #727272;
-  color:white;
+  background-color: #FFEE58;
+  color:#388E3C;
 }
 .pdf-butt:hover{
   background-color: white;
   color:#F44336;
-  border:2px solid white;
+  /*border:2px solid white;*/
 }
 
 @media screen and (max-width: 420px) {
    .entersite-butt{
      width:180px;
      font-size: 15px;
-     color:#1976D2;
    }
    .pdf-butt{
      width:180px;
@@ -104,27 +101,27 @@ div{width:100%;}
 
 }
 #contacts{
-  float: right;
+  text-align: center;
 }
 #contacts a button{
   padding:10px;
   margin: 2px;
-  border:3px solid #9E9E9E;
-  background-color: #9E9E9E;
-  border-radius: 10px;
+  border:3px solid #26A69A;
+  background-color: transparent;
+  border-radius: 5px;
 }
 @media screen and (max-device-width:420px) {
   #contacts a button{
     padding:10px;
     margin: 1px;
-    border:2px solid #F5F5F5;
-    background-color: #F5F5F5;
-    border-radius: 10px;
+    border:2px solid #26A69A;
+    background-color: transparent;
+    border-radius: 5px;
   }
 
 }
 #fb-icon{
-  color:#3b5998;
+  color:white;
 }
 #fb-icon:hover{
   color: white;
@@ -132,7 +129,7 @@ div{width:100%;}
   border-color: #3b5998;
 }
 #tw-icon{
-  color:#55acee;
+  color:white;
 }
 #tw-icon:hover{
   color: white;
@@ -140,10 +137,10 @@ div{width:100%;}
   border-color: #55acee;
 }
 #mail-icon{
-  color: teal;
+  color: white;
 }
 #mail-icon:hover{
   color:white;
-  background-color: teal;
-  border-color:teal;
+  background-color: #FFA726;
+  border-color:#FFA726;
 }
