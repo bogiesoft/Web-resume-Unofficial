@@ -19,7 +19,7 @@ body{
 div{width:100%;}
 #welcome-paragraph{
   text-align: center;
-  margin-right: 2em;
+  /*margin-right: 2em;*/
    font-size: 3em;
    color: #757575;
    padding-top: 3em;
@@ -88,7 +88,7 @@ div{width:100%;}
 .pdf-butt:hover{
   background-color: white;
   color:#F44336;
-  border:1px solid white;
+  border:2px solid white;
 }
 
 @media screen and (max-width: 420px) {
