@@ -124,23 +124,17 @@ div{width:100%;}
   color:white;
 }
 #fb-icon:hover{
-  color: white;
-  background-color: #3b5998;
-  border-color: #3b5998;
+  color: #3b5998;
 }
 #tw-icon{
   color:white;
 }
 #tw-icon:hover{
-  color: white;
-  background-color: #55acee;
-  border-color: #55acee;
+  color: #55acee;
 }
 #mail-icon{
   color: white;
 }
 #mail-icon:hover{
-  color:white;
-  background-color: #FFA726;
-  border-color:#FFA726;
+  color:#FFA726;
 }
