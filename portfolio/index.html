@@ -22,6 +22,8 @@
       <!--Link to animation CSS-->
       <link rel="stylesheet" href="css/animations2.min.css">
       <link rel="stylesheet" href="css/animation.css">
+      <link rel="stylesheet" href="css/materialize.min.css">
+      <link rel="stylesheet" href="css/balloon.min.css">
 
       <!--Link to CSS and Google web fonts-->
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
@@ -32,30 +34,34 @@
       <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
       <link href='https://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
       <link href="css/owl.carousel.css" rel="stylesheet">
       <link href="css/owl.theme.css" rel="stylesheet">
       <link rel="stylesheet" href="css/main.min.css">
-       <!--<link rel="stylesheet" href="css/main.css">-->
+       <!-- <link rel="stylesheet" href="css/main.css"> -->
       <link rel="manifest" href="/manifest.json">
       <link rel="icon" href="favicon.ico" type="image/x-icon">
 
       <!--add jQuerry and JS-->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <!-- <script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script> -->
+      <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+      <!--<script src="//code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script src="js/bootstrap.min.js"></script>
       <script src="js/owl.carousel.min.js"></script>
       <script type="text/javascript" src="js/bootstrap-progressbar.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
   </head>
   <body>
-   <header>
-     <div  class="egg-icon-div">
-      <div><img src="img/egg-img.png" class="img-responsive center-block egg-pic"></div>
-       <h2 class="header-name">Hi, My name is<span style="font-family: Montserrat, sans-serif;color:#CDDC39;" data-toggle="tooltip" title="Oeuf is a french word means egg."> Oeuf</span>.</h2>
-       <h4 class="header-name">Welcome to my portfolio website.</h4>
-       <hr style="width:61.888118812%">
-      </div>
+    <header>
+        <div  class="egg-icon-div">
+        <div><img src="img/egg-img.png" class="img-responsive center-block egg-pic"></div>
+          <h2 class="header-name">Hi, My name is<span style="font-family: Montserrat, sans-serif;color:#CDDC39;" data-balloon="Oeuf is a French word means egg." data-balloon-pos="up"> Oeuf</span>.</h2>
+        <h4 class="header-name">Welcome to my portfolio website.</h4>
+        <hr style="width:61.888118812%">
+        </div>
    </header>
-   <a href="#" id="back-to-top"><i class="fa fa-arrow-circle-up fa-3x" data-toggle="tooltip" title="Back to top"></i></a>
+   <a href="#" id="back-to-top"  data-balloon="back to top" data-balloon-pos="up"><i class="fa fa-arrow-circle-up fa-3x"></i></a>
        <div class="container"><a href="#my-profile-pic"><img src="img/arrow-down.png" class="center-block arrow"></a></div>
        <div class="container"><img src="img/oeuf3.png" class="img-responsive my-pic center-block" id="my-profile-pic"></div>
    <div class="my-info center-block">
@@ -63,21 +69,21 @@
          <div class="container">
           <div class="col-md-6 col-xs-12 center-block" id="personal-info">
               <h3 id="about-me-header"><strong>About  Me</strong></h3>
-              <h2>Pitarn Harnpanichpun<br></h2>
-              <h3><strong>Nickname</strong>: Oeuf<br><br></h3>
-              <h4><strong>Date of birth</strong>: 07 Sep 1994.<br><br></h4>
-              <h4 style="padding-bottom:5vh;"><strong>Language</strong>: Thai(native), English(intermediate)</h4>
+              <h4>Pitarn Harnpanichpun<br></h4>
+              <h5><strong>Nickname</strong>: Oeuf<br><br></h5>
+              <h5><strong>Date of birth</strong>: 07 Sep 1994.<br><br></h5>
+              <h5 style="padding-bottom:5vh;"><strong>Language</strong>: Thai (native), English (intermediate)</h5>
               <hr class="visible-phone-line">
           </div>
           <div class="col-md-6 col-xs-12 center-block" id="contact-info">
               <h3 id="contact-me-header"><strong>Contacts</strong></h3>
               <div id="my-contact">
-               <a href="http://www.facebook.com/412746o" target=newtab data-toggle="tooltip" title="My facebook profile"><button class="contact-icon"><i class="fa fa-facebook"></i></button></a>
-               <a href="mailto:pitarnh@gmail.com" data-toggle="tooltip" title="pitarnh@gmail.com"><button class="contact-icon"><i class="fa fa-envelope"></i></button></a>
-               <a href="http://www.github.com/oeufhp" target="newtab" data-toggle="tooltip" title="my Github" ><button class="contact-icon"><i class="fa fa-github" ></i></button></a>
-               <button class="contact-icon" data-toggle="tooltip" title="+66870417316"><i class="fa fa-mobile"></i></button>
+               <a href="http://www.facebook.com/412746o" target=newtab  data-balloon="my facebook profile" data-balloon-pos="up"><button class="contact-icon"><i class="fa fa-facebook"></i></button></a>
+               <a href="mailto:pitarnh@gmail.com"  data-balloon="pitarnh@gmail.com" data-balloon-pos="up"><button class="contact-icon"><i class="fa fa-envelope"></i></button></a>
+               <a href="http://www.github.com/oeufhp" target="newtab"  data-balloon="Github: Oeufhp" data-balloon-pos="up"><button class="contact-icon"><i class="fa fa-github" ></i></button></a>
+               <button class="contact-icon"  data-balloon="+66870417316" data-balloon-pos="up"><i class="fa fa-mobile"></i></button>
               </div>
-              <a href="resume-pdf/Resume_Pitarn_Harnpanichpun.pdf" target="newtab"  class="center-block"><button id="pdf-butt" ><strong>My resume </strong><i class="fa fa-file-pdf-o"></i></i></button></a>
+              <a href="resume-pdf/Resume_Pitarn_Harnpanichpun.pdf" target="newtab"  class="center-block"><button id="pdf-butt" ><strong>Download resume </strong><i class="fa fa-file-pdf-o"></i></i></button></a>
          </div>
          </div>
       </div>
@@ -126,28 +132,28 @@
                 <div><img src="img/html_pic.png" class="img-responsive skill-pic center-block"></div>
                 <p class="center-block pro-lang">HTML/CSS [Familiar]</p>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" title="skill">75/100</div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75/100</div>
                 </div>
            </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <div><img src="img/cpp_pic.png" class="center-block img-responsive skill-pic"></div>
                 <p class="center-block pro-lang">C++ [Familiar]</p>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" title="skill">70/100</div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70/100</div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <div><img src="img/java_logo.png" class="center-block img-responsive skill-pic"></div>
                 <p class="center-block pro-lang">JAVA [Advanced Beginner]</p>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" title="skill">60/100</div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60/100</div>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3">
                 <div><img src="img/js-logo.png" class="center-block img-responsive skill-pic"></div>
                 <p class="center-block pro-lang">Javascript [Beginner]</p>
                 <div class="progress">
-                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" data-toggle="tooltip" title="skill">30/100</div>
+                    <div class="progress-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30/100</div>
                 </div>
             </div>
         </div>
@@ -205,64 +211,74 @@
                  <p class="tool-sub-header">LEMP Stack</p>
              </div>
          </div>
-<!--
-         <hr style="color:white; width:90%;">
-         <div class="container">
-            <p style="font-family:'Open Sans',sans-serif; font-size: 25px;color:white; text-align: center;">Other tools  <i class="fa fa-gavel"></i></p>
-            <div class="center-block col-xs-6 col-sm-4 col-md-3">
-              <div class="tool-pic center-block"><img src="img/MSWord-pic.png" class="center-block img-responsive"></div>
-              <p class="tool-sub-header">Word</p>
-            </div>
-            <div class="center-block col-xs-6 col-sm-4 col-md-3">
-              <div class="tool-pic center-block"><img src="img/MSPPT-pic.png" class="center-block img-responsive"></div>
-              <p class="tool-sub-header">Powerpoint</p>
-            </div>
-            <div class="center-block col-xs-6 col-sm-4 col-md-3">
-              <div class="tool-pic center-block"><img src="img/PS-pic.png" class="center-block img-responsive"></div>
-              <p class="tool-sub-header">Photoshop</p>
-            </div>
-            <div class="center-block col-xs-6 col-sm-4 col-md-3">
-              <div class="tool-pic center-block"><img src="img/sublime-pic.png" class="center-block img-responsive"></div>
-              <p class="tool-sub-header">Sublime text</p>
-            </div>
-             <div class="center-block col-xs-6 col-sm-4 col-md-3">
-                 <div class="tool-pic center-block"><img src="img/atom-pic.png" class="center-block img-responsive"></div>
-                 <p class="tool-sub-header">Atoms</p>
-             </div>
-         </div>
--->
-
      </div>
    <div><img src="img/project-pic.png" class="center-block img-responsive section-logo"></div>
     <div class="projects center-block">
         <div class="center-block section-header">Project experience</div>
        <div class="container pro-con">
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div><img src="img/tracktorMania-pic.jpg" class="center-block img-responsive pro-pic"  data-toggle="tooltip" title="Simple racing game implemented with Java"></div>
-                <p class="center-block pro-sub-header-1"><strong>Tractor Mania</strong>
-                <a href="https://youtu.be/zNch4dlRUeo"target="newtab" data-toggle="tooltip" title="watch on Youtube"><i class="fa fa-youtube-play YT-ico"></i></a>
-                </p>
-                <p class="center-block pro-sub-header-2"><strong>Tools</strong>: Eclipse(Java)</p>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/tracktorMania-pic.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Tractor Mania<i class="material-icons right">description</i></span>
+                      <p><a href="https://youtu.be/zNch4dlRUeo">Watch on Youtube</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Tractor Mania<i class="material-icons right">close</i></span>
+                      <p>This is simple racing game.</p>
+                      <p><b>Tools</b>: Java and Eclipse</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div><img src="img/pong.png" class="center-block img-responsive pro-pic"  data-toggle="tooltip" title="Simple pong game implemented with FPGA board and Verilog HDL"></div>
-                <p class="center-block pro-sub-header-1"><strong>Pong</strong></p>
-                <p class="center-block pro-sub-header-2"><strong>Tools</strong>: Xilinx(Verilog)</p>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/pong.png">
+                    </div>
+                    <div class="card-content" style="margin-top: 15px;">
+                      <span class="card-title activator grey-text text-darken-4">Pong<i class="material-icons right">description</i></span>
+                      <!--<p><a href="https://youtu.be/zNch4dlRUeo">Watch on Youtube</a></p>-->
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Pong<i class="material-icons right">close</i></span>
+                      <p>This is simple pong game.</p>
+                      <p><b>Tools</b>:FPGA board, Verilog HDL and Xilinx</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                 <div><img src="img/3dmodel-editor.png" class="center-block img-responsive pro-pic"  data-toggle="tooltip" title="Simple 3d model editor"></div>
-                 <p class="center-block pro-sub-header-1"><strong>3D model editor</strong>
-                   <a href="https://www.facebook.com/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99-Opengl-5631068821-1713542902267349/"
-                      target="newtab" data-toggle="tooltip" title="visit for more images and see source code"><i class="fa fa-facebook-square FB-ico"></i></a>
-                 </p>
-                 <p class="center-block pro-sub-header-2"><strong>Tools</strong>: Visual studio(C++/OpenGL)</p>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                  <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/3dmodel-editor.png">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">3D model editor<i class="material-icons right">description</i></span>
+                      <p><a href="https://www.facebook.com/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%9A%E0%B9%89%E0%B8%B2%E0%B8%99-Opengl-5631068821-1713542902267349/">Visit facebook page</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">3D model editor<i class="material-icons right">close</i></span>
+                      <p>This is simple 3d model editor.</p>
+                       <p><b>Tools</b>: Visual studio, OpenGL and C++</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6">
-                <div><img src="img/magicLock2-pic.jpg" class="center-block img-responsive pro-pic"  data-toggle="tooltip" title="Locker unlocked with knocking pattern"></div>
-                <p class="center-block pro-sub-header-1"><strong>Magic lock</strong>
-                    <a href="https://youtu.be/5X_XLZfsiro" target="newtab" data-toggle="tooltip" title="watch on Youtube"><i class="fa fa-youtube-play YT-ico"></i></a>
-                </p>
-                <p class="center-block pro-sub-header-2"><strong>Tools</strong>: Arduino(C)</p>
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-image waves-effect waves-block waves-light">
+                      <img class="activator" src="img/magicLock2-pic.jpg">
+                    </div>
+                    <div class="card-content">
+                      <span class="card-title activator grey-text text-darken-4">Magic lock<i class="material-icons right">description</i></span>
+                      <p><a href="https://youtu.be/5X_XLZfsiro?list=LL6-XPWWJmEzePZxawiKKUVw">Watch on youtube</a></p>
+                    </div>
+                    <div class="card-reveal">
+                      <span class="card-title grey-text text-darken-4">Magic lock<i class="material-icons right">close</i></span>
+                      <p>This is a locker that unlocked with knocking pattern key.</p>
+                       <p><b>Tools</b>: Arduino Atmega 168 and C </p>
+                    </div>
+                </div>
             </div>
        </div>
      </div>
@@ -305,14 +321,14 @@
    <div style="height:5em;"></div>
    <section class="my-footer">
        <div class="container ft" id="ft-sld">
-           <h2 class="center-block">Thank you for visiting. :)</h2>
-           <h4 class="center-block">Pitarn Harnpanichpun</h4>
-           <h4 class="center-block">pitarnh@gmail.com</h4>
+           <h4 class="center-block">Thank you for visiting. :)</h4>
+           <h5 class="center-block">Pitarn Harnpanichpun</h5>
+           <h6 class="center-block">pitarnh@gmail.com</h6>
            <p>
-               <a href="http://www.facebook.com/412746o" target="newtab" data-toggle="tooltip" title="My Facebook profile"><i class="fa fa-facebook-square"></i></a>
-               <a href="mailto:pitarnh@gmail.com" data-toggle="tooltip" title="pitarnh@gmail.com"><i class="fa fa-envelope"></i></a>
-               <a href="https://github.com/Oeufhp" target="newtab" data-toggle="tooltip" title="My Github profile"><i class="fa fa-github-square"></i></a>
-               <a href="http://instagram.com/Oeuffylatte" target="newtab" data-toggle="tooltip" title="Instagram:Oeuffylatte"><i class="fa fa-instagram"></i></a>
+               <a href="http://www.facebook.com/412746o" target="newtab" data-balloon="my facebook profile" data-balloon-pos="up"><i class="fa fa-facebook-square"></i></a>
+               <a href="mailto:pitarnh@gmail.com" data-balloon="pitarnh@gmail.com" data-balloon-pos="up"><i class="fa fa-envelope"></i></a>
+               <a href="https://github.com/Oeufhp" target="newtab" data-balloon="Github: Oeufhp" data-balloon-pos="up"><i class="fa fa-github-square"></i></a>
+               <a href="http://instagram.com/Oeuffylatte" target="newtab" data-balloon="Instagram: oeuffylatte" data-balloon-pos="up"><i class="fa fa-instagram"></i></a>
            </p>
        </div>
    </section>
@@ -329,9 +345,6 @@
        });
    </script>
     <script>
-       $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
-        });
         $(document).ready(function() {
             $("#owl-demo").owlCarousel({
                 navigation : true, // Show next and prev buttons
