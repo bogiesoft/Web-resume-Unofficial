@@ -206,7 +206,7 @@ header{
     border:1px solid white;
     background-color: white;
     color: #F44336;
-    width:300px;
+    width:200px;
     padding-top: 15px;
     padding-bottom: 15px;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -215,7 +215,7 @@ header{
 }
 @media screen and (max-width:420px){
    #pdf-butt{
-     width:270px;
+     width:170px;
    }
 }
 #pdf-butt:hover{
