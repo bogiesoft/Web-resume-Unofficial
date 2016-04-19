@@ -96,8 +96,10 @@ header{
     padding:13px;
     position: relative;
     bottom:2em;
-    float: right;
-    right: 3%;
+    /*float: right;*/
+    /*right: 3%;*/
+    /*display: inline;*/
+    /*text-align: right;*/
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
     overflow:hidden;
     -webkit-transition: all 0.2s ease;
@@ -105,6 +107,10 @@ header{
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
     z-index:0;
+}
+.arrow-div{
+    display: inline-block;
+    text-align: right;
 }
 @media screen and (max-device-width:420px){
   .arrow{
