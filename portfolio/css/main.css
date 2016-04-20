@@ -206,7 +206,7 @@ header{
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     border-radius: 5px;
-    
+
 }
 @media screen and (max-width:420px){
    #pdf-butt{
