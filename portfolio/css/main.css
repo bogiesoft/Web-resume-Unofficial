@@ -492,11 +492,13 @@ header{
     background-size: contain;
 }
 .ft{
-    font-family: Signika;
-    font-size: 25px;
+    font-family: Signika,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
     text-align: center;
     visibility: hidden;
 }
+
 .ft h6{
     position: relative;
     padding-bottom:1em;
