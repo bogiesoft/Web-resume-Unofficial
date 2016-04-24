@@ -478,6 +478,10 @@ header{
     color:white;
     padding-top: 3em;
 }
+.act-li{
+    list-style-type: disc;
+    /*padding-right: 40px;*/
+}
 #owl-demo .item img{
     width: 100%;
 }
