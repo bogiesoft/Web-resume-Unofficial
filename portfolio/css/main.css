@@ -100,11 +100,11 @@ header{
 .egg-pic-test{
     width:10%;
 }
-/*@media (max-device-width:420px){
+@media (max-device-width:420px){
     .egg-pic-test{
         width:30%;
     }
-}*/
+}
 @media screen and (max-device-width: 420px){
     .header-name{font-size: 30px;}
     #hn-quote{font-size: 25px;}
