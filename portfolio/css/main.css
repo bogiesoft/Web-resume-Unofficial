@@ -21,12 +21,26 @@ header{
 .container{
     width:100%;
 }
-.section-logo{
+.section-logo-test{
+    position:relative;
+    width:10%;
+    border-radius:100%;
+    border:2px solid white;
+    top:5em;
+    background-color: white;
+}
+@media (max-device-width:420px){
+    .section-logo-test{
+        width:30%;
+        top:4.5em;
+    }
+}
+/*.section-logo{
     position: relative;
     border-radius: 100%;
     border:2px solid antiquewhite;
     top:5em;
-}
+}*/
 .section-header{
     text-align:center;
     font-family: 'Open Sans', sans-serif;
@@ -83,6 +97,14 @@ header{
 #hn-quote{
     font-size: 30px;
 }
+.egg-pic-test{
+    width:10%;
+}
+/*@media (max-device-width:420px){
+    .egg-pic-test{
+        width:30%;
+    }
+}*/
 @media screen and (max-device-width: 420px){
     .header-name{font-size: 30px;}
     #hn-quote{font-size: 25px;}
@@ -288,18 +310,26 @@ header{
     padding-top: 2em;
     padding-bottom: 5em;
 }
-.int-pic{
+/*.int-pic{
     border:1px solid #FFEE58;
     background-color: #FFEE58;
     padding: 2em;
     border-radius: 20%;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}*/
+.int-pic-test{
+    border:1px solid #FFEE58;
+    background-color: #FFEE58;
+    padding: 2em;
+    border-radius: 15%;
+    width:55%;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
-@media screen and (max-device-width: 420px){
+/*@media screen and (max-device-width: 420px){
     .int-pic{
         width:45%;
     }
-}
+}*/
 .int-sub-header{
     font-family:'Nunito',sans-serif;
     font-size: 23px;
@@ -316,19 +346,28 @@ header{
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
 }
-.skill-pic{
+/*.skill-pic{
     border:1px solid white;
     background-color: white;
     padding: 1em;
     border-radius: 25px;
     padding-bottom: 1em;
     box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
+}*/
+.skill-pic-test{
+    border:1px solid white;
+    background-color: white;
+    padding: 1em;
+    border-radius: 25px;
+    padding-bottom: 1em;
+    width:55%;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);
 }
-@media screen and (max-device-width:420px){
+/*@media screen and (max-device-width:420px){
   .skill-pic{
     width:45%;
   }
-}
+}*/
 .pro-lang{
   font-family:'Nunito',sans-serif;
   font-size:20px;
