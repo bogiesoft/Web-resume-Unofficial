@@ -20,7 +20,7 @@ div{width:100%;}
   /*margin-right: 2em;*/
    font-size: 3em;
    color: white;
-   padding-top: 3em;
+   padding-top: 2em;
 }
 #my-name{
   font-family: 'Bree Serif', serif;
@@ -66,7 +66,7 @@ div{width:100%;}
   transition-duration: 0.4s;
   border-radius: 5px;
 }
-.pdf-butt{
+/*.pdf-butt{
   font-size:20px;
   border:2px solid white;
   background-color: transparent;
@@ -76,32 +76,33 @@ div{width:100%;}
   padding-bottom: 10px;
   margin-top: 1em;
   -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  /*transition-duration: 0.4s;
   border-radius: 5px;
-}
+}*/
 .entersite-butt:hover{
   background-color: #FFEE58;
   color:#388E3C;
 }
-.pdf-butt:hover{
+/*.pdf-butt:hover{
   background-color: white;
   color:#ff0000;
   /*border:2px solid white;*/
-}
+/*}*/
 
 @media screen and (max-width: 420px) {
    .entersite-butt{
      width:180px;
      font-size: 15px;
    }
-   .pdf-butt{
+   /*.pdf-butt{
      width:180px;
      font-size: 15px;
-   }
+   }*/
 
 }
 #contacts{
   text-align: center;
+  margin-top:7em;
 }
 #contacts a button{
   padding:10px;
