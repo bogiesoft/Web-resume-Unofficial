@@ -35,12 +35,11 @@ header{
         top:4.5em;
     }
 }
-/*.section-logo{
-    position: relative;
-    border-radius: 100%;
-    border:2px solid antiquewhite;
-    top:5em;
-}*/
+@media (max-device-width:768px){
+  .section-logo-test{
+     top:3em;
+  }
+}
 .section-header{
     text-align:center;
     font-family: 'Open Sans', sans-serif;
@@ -102,7 +101,7 @@ header{
 }
 @media (max-device-width:435px){
     .egg-pic-test{
-        width:30%;
+        width:20%;
     }
 }
 @media screen and (max-device-width: 435px){
