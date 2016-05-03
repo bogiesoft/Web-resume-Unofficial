@@ -324,9 +324,6 @@ header{
     text-align: center;
     padding-top: 1em;
 }
-#hn-quote{
-    font-size: 30px;
-}
 .egg-pic-test{
     width:7%;
 }
@@ -337,7 +334,7 @@ header{
 }
 @media screen and (max-device-width: 435px){
     .header-name{font-size: 30px;}
-    #hn-quote{font-size: 25px;}
+    #hn-quote{font-size: 15px;}
     .egg-pic{
         width:27%;
     }
@@ -361,6 +358,11 @@ header{
 .arrow-div{
     display: inline-block;
     text-align: right;
+}
+@media screen and (max-device-width:768px){
+    .arrow{
+        width:7%;
+    }
 }
 @media screen and (max-device-width:435px){
   .arrow{
@@ -456,7 +458,7 @@ header{
     padding-bottom: 15px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
-    /*border-radius: 5px;*/
+    border-radius: 3px;
 
 }
 @media screen and (max-width:435px){
