@@ -676,7 +676,7 @@ header{
     -o-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
     transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
-.progress-bar-warning {
+/*.progress-bar-warning {
     background-image: -webkit-gradient(linear, left 0, left 100%, from(#f0ad4e), to(#ec971f));
     background-image: -webkit-linear-gradient(top, #f0ad4e 0, #ec971f 100%);
     background-image: -moz-linear-gradient(top, #f0ad4e 0, #ec971f 100%);
@@ -691,7 +691,7 @@ header{
     line-height: 20px;
     color: #fff;
     text-align: center;
-}
+}*/
 /*---test progress bar---*/
 /*----- tools section -----*/
 .tools{
