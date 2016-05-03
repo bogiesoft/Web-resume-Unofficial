@@ -710,13 +710,20 @@ header{
 #apache-logo{
     width:22%;
 }
+#do-caption{
+    padding-top: 32px;
+}
 @media (max-device-width: 435px){
     .tool-pic-test{
         width:70%;
     }
     #apache-logo{
-        width: 35%;
+        width: 30%;
     }
+    #do-caption{
+        padding-top: 2px;
+    }
+
 }
 
 .tool-sub-header{
