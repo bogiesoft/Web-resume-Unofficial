@@ -372,7 +372,7 @@ header{
 }
 .arrow:hover{
     z-index:700;
-    box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
+    /*box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;*/
     -webkit-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
     -moz-box-shadow:rgba(0, 0, 0, 0.3) 0 16px 16px 0;
 }
@@ -456,8 +456,8 @@ header{
     width:250px;
     padding-top: 15px;
     padding-bottom: 15px;
-    -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
     border-radius: 3px;
 
 }
@@ -468,10 +468,12 @@ header{
    }
 }
 #pdf-butt:hover{
-    color:#ff0000;
-    border-color: white;
-    background-color: white;
-    box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);
+    /*color:#ff0000;*/
+    /*border-color: white;*/
+    /*background-color: white;*/
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.5s;
+    /*box-shadow: 0 4px 6px 0 rgba(0,0,0,0.24),0 6px 20px 0 rgba(0,0,0,0.19);*/
 }
 /*----- education info section -----*/
 
@@ -777,7 +779,7 @@ header{
     padding-top: 2em;
 }
 /*----- Footer Section -----*/
-.my-footer{
+/*.my-footer{
     background-color: #FFF9C4;
     background-size: contain;
 }
@@ -786,10 +788,10 @@ header{
     font-weight: 500;
     font-size: 20px;
     text-align: center;
-    /*visibility: hidden;*/
-}
+    /*visibility: hidden;
+}*/
 
-.ft h6{
+/*.ft h6{
     position: relative;
     padding-bottom:1em;
 }
@@ -798,4 +800,7 @@ header{
 }
 .ft p a:hover{
     color: brown;
+}*/
+.footer-link:hover{
+    color: #F57C00;
 }
