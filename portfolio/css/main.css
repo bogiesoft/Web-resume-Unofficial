@@ -703,22 +703,22 @@ header{
 
 }
 .tool-pic-test{
-    width:40%;
+    width:30%;
     padding-top: 2em;
     padding-bottom: 1em;
 }
 #apache-logo{
-    width:22%;
+    width:19%;
 }
 #do-caption{
     padding-top: 32px;
 }
 @media (max-device-width: 435px){
     .tool-pic-test{
-        width:70%;
+        width:65%;
     }
     #apache-logo{
-        width: 30%;
+        width: 28%;
     }
     #do-caption{
         padding-top: 2px;
