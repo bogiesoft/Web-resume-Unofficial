@@ -105,7 +105,7 @@ div{width:100%;}
     padding-top: 1em;
   }
 }
-#es-link,#pdf-link{
+#es-link{
   text-decoration: none;
 }
 .entersite-butt{
@@ -120,7 +120,7 @@ div{width:100%;}
   margin-top: 2em;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
-  /*border-radius: 5px;*/
+  border-radius: 3px;
 }
 /*.pdf-butt{
   font-size:20px;
