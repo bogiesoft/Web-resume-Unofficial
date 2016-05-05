@@ -22,15 +22,6 @@
       <link rel="stylesheet" href="css/animation.css">
       <link rel="stylesheet" href="css/materialize.min.css">
       <link rel="stylesheet" href="css/balloon.min.css">
-
-      <!--Link to CSS and Google web fonts-->
-      <!-- <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,700' rel='stylesheet' type='text/css'>
-      <link href='https://fonts.googleapis.com/css?family=Maven+Pro:500' rel='stylesheet' type='text/css'>
-      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
-
       <link href="css/owl.carousel.css" rel="stylesheet">
       <link href="css/owl.theme.css" rel="stylesheet">
       <link rel="stylesheet" href="css/main.min.css">
@@ -68,9 +59,9 @@
               <h3 id="contact-me-header"><strong>Contacts</strong></h3>
                 <p style="font-size:20px;padding-top: 20px;"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp +66870417316</p>
               <p id="my-contact">
-                <a class="waves-effect waves-light btn" target="newtab" href="http://www.facebook.com/412746o"><i class="fa fa-facebook fa-2x"></i></a>
-                <a class="waves-effect waves-light btn" target="newtab" href="mailto:pitarnh@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
-                <a class="waves-effect waves-light btn" target="newtab" href="http://www.github.com/oeufhp"><i class="fa fa-github fa-2x"></i></a>
+                <a class="waves-effect waves-light btn" target="newtab" href="http://www.facebook.com/412746o" title="My facebook profile"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                <a class="waves-effect waves-light btn" target="newtab" href="mailto:pitarnh@gmail.com"  title="pitarnh@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+                <a class="waves-effect waves-light btn" target="newtab" href="http://www.github.com/oeufhp" title="Github:oeufhp"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
               </p>
               <a href="resume-pdf/Resume_Pitarn_Harnpanichpun.pdf" target="newtab"  class="center-block"><button id="pdf-butt"><strong style="font-weight: 300;">Download Resume</strong>&nbsp   <i class="fa fa-file-pdf-o"></i></i></button></a>
          </div>
@@ -396,6 +387,11 @@
     <script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript" src="js/bootstrap-progressbar.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+      $(function() {
+        $( document ).tooltip();
+      });
+   </script>
     <script>
         $(document).ready(function() {
             $("#owl-demo").owlCarousel({
