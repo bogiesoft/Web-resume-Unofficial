@@ -70,17 +70,20 @@ body{
   width: 100%;
  }
 div{width:100%;}
-#welcome-paragraph{
+/*#welcome-paragraph{
   text-align: center;
-  /*margin-right: 2em;*/
+  /*margin-right: 2em;
    font-size: 3em;
    color: white;
    padding-top: 2em;
-}
+}*/
 #my-name{
   font-family: 'Bree Serif', serif;
-  font-size: 1.2em;
+  font-size: 5em;
   color:#CDDC39;
+  text-align: center;
+  padding-top: 2em;
+  
 }
 #myquote{
   font-family:'Oxygen',sans-serif;
@@ -90,13 +93,13 @@ div{width:100%;}
   text-align:center;
 }
 @media screen and (max-width: 420px){
-  #welcome-paragraph{
+  /*#welcome-paragraph{
     font-size:2em;
     color: white;
     padding-top: 3em;
-  }
+  }*/
   #my-name{
-    font-size: 1.2em;
+    font-size: 2.5em;
     color:#CDDC39;
   }
   #myquote{
