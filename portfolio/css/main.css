@@ -742,13 +742,21 @@ header{
       width:42%;
       padding-bottom: 22px;
     }
+    #nginx-capt{
+        padding-top: 10px;
+    }
 }
-@media(max-device-width:768px){
+@media (width: 320px){
+    #apache-logo{
+        padding-bottom: 17px;
+    }
+}
+@media (min-device-width:436px) and (max-device-width:768px){
   #jade-logo{
     padding-top: 18px;
   }
   #do-caption{
-     padding-top: 20px;
+     padding-top: 17px;
   }
   #less-capt{
     margin-top: 30px;
