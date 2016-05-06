@@ -310,6 +310,11 @@ header{
 #content {
     height: 2000px;
 }
+@media (max-device-width:435px){
+   #back-to-top{ 
+    right:20px;
+   } 
+}
 
 /*----- header section -----*/
 .egg-icon-div{
