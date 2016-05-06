@@ -239,11 +239,11 @@
 }
 /*----- global -----*/
 body {
-    background-color:lightgray;
+    background-color:#E0E0E0;
 }
 .row{width: 100%;}
 header{
-    background-color:#009688;
+    background-color:#00BCD4;
     width:100%;
     height:500px;
     display:table;
@@ -258,7 +258,7 @@ header{
     border-radius:100%;
     border:2px solid white;
     top:5em;
-    background-color: white;
+    background-color: #0288D1;
 }
 @media (max-device-width:435px){
     .section-logo-test{
@@ -293,7 +293,7 @@ header{
     width: 50px;
     height: 50px;
     text-align: center;
-    background: #8BC34A;
+    background: #00BCD4;
     color: white;
     border-radius: 100%;
     text-decoration: none;
@@ -301,7 +301,7 @@ header{
     opacity: 0;
 }
 #back-to-top:hover {
-    background-color:#43A047;
+    background-color:#0097A7;
     color: #E0E0E0;
 }
 #back-to-top.show {
@@ -404,7 +404,7 @@ header{
     }
 }
 .my-info{
-    background-color: #616161;
+    background-color: #ffffff;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -419,7 +419,7 @@ header{
     font-family: 'Roboto',sans-serif;
     font-size:21px;
     font-weight: 300;
-    color:white;
+    color:#01579B;
     text-align: center;
     padding-top: 5em;
 }
@@ -436,7 +436,7 @@ header{
 #contact-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
-    color:white;
+    color:#01579B;
     text-align: center;
     padding-top: 3em;
     padding-bottom: 2em;
@@ -458,8 +458,8 @@ header{
 #pdf-butt{
     font-size:20px;
     text-decoration: none;
-    border:1px solid #26A69A;
-    background-color: #26A69A;
+    border:1px solid #0288d1;
+    background-color: #0288d1;
     color: white;
     width:250px;
     padding-top: 15px;
@@ -476,7 +476,7 @@ header{
    }
 }
 #pdf-butt:hover{
-    /*color:#ff0000;*/
+    color:#000000;
     /*border-color: white;*/
     /*background-color: white;*/
     -webkit-transition-duration: 0.5s; /* Safari */
@@ -486,7 +486,7 @@ header{
 /*----- education info section -----*/
 
 .education{
-    background-color: #009688;
+    background-color: #0288D1;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -541,7 +541,7 @@ header{
 }
 /*----- interesting section -----*/
 .interest{
-    background-color: #616161;
+    background-color: #ffffff;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -558,12 +558,12 @@ header{
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }*/
 .int-pic-test{
-    border:1px solid #FFEE58;
-    background-color: #FFEE58;
+    /*border:1px solid #FFEE58;*/
+    /*background-color: #FFEB3B;*/
     padding: 2em;
     border-radius: 15px;
     width:55%;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    /*box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);*/
 }
 /*@media screen and (max-device-width: 435px){
     .int-pic{
@@ -574,13 +574,13 @@ header{
     font-family:'Nunito',sans-serif;
     font-size: 23px;
     font-weight: 200;
-    color:white;
+    color:#01579B;
     padding-top: 1em;
     text-align: center;
 }
 /*----- Programming skills section -----*/
 .skills{
-  background-color: #009688;
+  background-color: #0288D1;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -656,7 +656,7 @@ header{
     line-height: 20px;
     color: #fff;
     text-align: center;
-    background-color: #CDDC39;
+    background-color: #FFC107;
     -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
     -webkit-transition: width .6s ease;
@@ -673,7 +673,7 @@ header{
 .progress-bar {
     box-shadow: none;
     border-radius: 3px;
-    background-color: #CDDC39;
+    background-color: #FFC107;
     background-image: none;
     -webkit-transition: all 1000ms cubic-bezier(0.785, 0.135, 0.150, 0.860);
     -moz-transition: all 1000ms cubic-bezier(0.785, 0.135, 0.150, 0.860);
@@ -707,7 +707,7 @@ header{
 .tools{
     width:90%;
     border-radius: 10px;
-    background-color:#616161;
+    background-color:#ffffff;
     padding-bottom: 3em;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
@@ -719,6 +719,9 @@ header{
 }
 #apache-logo{
     width:19%;
+}
+#mysql-logo{
+    width:45%;
 }
 #do-caption{
     padding-top: 32px;
@@ -733,18 +736,25 @@ header{
     #do-caption{
         padding-top: 2px;
     }
+    #mysql-logo{
+        width:85%;
+    }
+    #mysql-capt{
+        padding-top: 10px;
+    }
 
 }
 
 .tool-sub-header{
     font-family:Noto Sans,sans-serif;
     font-size: 20px;
-    color:white;
+    font-weight: 500;
+    color:#01579B;
     text-align: center;
 }
 /*----- projects section -----*/
 .projects{
-    background-color:#009688;
+    background-color:#0288D1;
     width:90%;
     border-radius: 10px;
     padding-bottom: 3em;
@@ -758,7 +768,7 @@ header{
 .activity{
     width:90%;
     border-radius: 10px;
-    background-color:#616161;
+    background-color:#ffffff;
     padding-bottom: 3em;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 
@@ -769,7 +779,7 @@ header{
 .act-list{
     font-family:Montserrat,sans-serif;
     font-size: 15px;
-    color:white;
+    color: #01579B;
     padding-top: 3em;
 }
 .act-li{
@@ -786,29 +796,6 @@ header{
     text-align: center;
     padding-top: 2em;
 }
-/*----- Footer Section -----*/
-/*.my-footer{
-    background-color: #FFF9C4;
-    background-size: contain;
-}
-.ft{
-    font-family: Signika,sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    text-align: center;
-    /*visibility: hidden;
-}*/
-
-/*.ft h6{
-    position: relative;
-    padding-bottom:1em;
-}
-.ft p a{
-    padding:5px;
-}
-.ft p a:hover{
-    color: brown;
-}*/
 .footer-link:hover{
     color: #F57C00;
 }
