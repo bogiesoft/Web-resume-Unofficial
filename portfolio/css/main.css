@@ -417,14 +417,16 @@ header{
 }
 #personal-info{
     font-family: 'Roboto',sans-serif;
-    font-size:21px;
-    font-weight: 300;
+    font-size:20px;
+    font-weight: 400;
     color:#01579B;
     text-align: center;
     padding-top: 5em;
 }
+#my-name{
+  font-size: 30px;
+}
 .visible-phone-line{visibility: hidden;}
-
 @media screen and (max-device-width: 435px) {
     .visible-phone-line {
         visibility: visible;
@@ -432,7 +434,14 @@ header{
         margin-top:2vh;
     }
 }
-
+@media(max-device-width:768px){
+  #my-name{
+    font-size: 27px;
+  }
+  #about-me-header{
+    padding-top: 12px;
+  }
+}
 #contact-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
@@ -686,23 +695,6 @@ header{
     -o-transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
     transition-timing-function: cubic-bezier(0.785, 0.135, 0.150, 0.860);
 }
-/*.progress-bar-warning {
-    background-image: -webkit-gradient(linear, left 0, left 100%, from(#f0ad4e), to(#ec971f));
-    background-image: -webkit-linear-gradient(top, #f0ad4e 0, #ec971f 100%);
-    background-image: -moz-linear-gradient(top, #f0ad4e 0, #ec971f 100%);
-    background-image: linear-gradient(to bottom, #f0ad4e 0, #ec971f 100%);
-    background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff0ad4e', endColorstr='#ffec971f', GradientType=0);
-}
-.progress-bar-warning {
-    background-color: #FDD01C;
-    background-image: none;
-    font-size: 14px;
-    line-height: 20px;
-    color: #fff;
-    text-align: center;
-}*/
-/*---test progress bar---*/
 /*----- tools section -----*/
 .tools{
     width:90%;
@@ -750,7 +742,17 @@ header{
       width:42%;
       padding-bottom: 22px;
     }
-
+}
+@media(max-device-width:768px){
+  #jade-logo{
+    padding-top: 18px;
+  }
+  #do-caption{
+     padding-top: 20px;
+  }
+  #less-capt{
+    margin-top: 30px;
+  }
 }
 
 .tool-sub-header{
