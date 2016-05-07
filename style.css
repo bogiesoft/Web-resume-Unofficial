@@ -125,39 +125,15 @@ div{width:100%;}
   transition-duration: 0.4s;
   border-radius: 3px;
 }
-/*.pdf-butt{
-  font-size:20px;
-  border:2px solid white;
-  background-color: transparent;
-  color: white;
-  width:250px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin-top: 1em;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  /*transition-duration: 0.4s;
-  border-radius: 5px;
-}*/
 .entersite-butt:hover{
   background-color: #FFEE58;
   color:#00BCD4;
 }
-/*.pdf-butt:hover{
-  background-color: white;
-  color:#ff0000;
-  /*border:2px solid white;*/
-/*}*/
-
 @media screen and (max-width: 420px) {
    .entersite-butt{
      width:180px;
      font-size: 15px;
    }
-   /*.pdf-butt{
-     width:180px;
-     font-size: 15px;
-   }*/
-
 }
 #contacts{
   text-align: center;
