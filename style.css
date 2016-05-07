@@ -80,10 +80,10 @@ div{width:100%;}
 #my-name{
   font-family: 'Bree Serif', serif;
   font-size: 5em;
-  color:#CDDC39;
+  color:#FFEB3B;
   text-align: center;
   padding-top: 2em;
-  
+
 }
 #myquote{
   font-family:'Oxygen',sans-serif;
@@ -140,7 +140,7 @@ div{width:100%;}
 }*/
 .entersite-butt:hover{
   background-color: #FFEE58;
-  color:#448AFF;
+  color:#00BCD4;
 }
 /*.pdf-butt:hover{
   background-color: white;
