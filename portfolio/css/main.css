@@ -519,7 +519,7 @@ header{
     background-color: white;
     padding: 3em;
     border-radius: 7px;
-    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-device-width: 435px){
     .tu-pic{width: 65%;}
@@ -530,7 +530,7 @@ header{
     background-color: white;
     padding: 3em;
     border-radius: 7px;
-    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
 }
 .cu-name{
     font-family:'Roboto',sans-serif;
@@ -544,7 +544,7 @@ header{
     background-color: #ffffff;
     width:90%;
     border-radius: 10px;
-    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
+    box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.15);
 }
 .int-row{
     padding-top: 2em;
@@ -563,7 +563,7 @@ header{
     padding: 2em;
     border-radius: 5px;
     width:55%;
-    /*box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.15);
 }
 /*@media screen and (max-device-width: 435px){
     .int-pic{
@@ -598,10 +598,10 @@ header{
     border:1px solid white;
     background-color: white;
     padding: 1em;
-    border-radius: 17px;
+    border-radius: 7px;
     padding-bottom: 1em;
     width:50%;
-    /*box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.2), 0 6px 16px 0 rgba(0, 0, 0, 0.19);*/
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.15);
 }
 /*@media screen and (max-device-width:435px){
   .skill-pic{
@@ -726,6 +726,10 @@ header{
 #do-caption{
     padding-top: 32px;
 }
+#jade-logo{
+  width:20%;
+  padding-bottom: 20px;
+}
 @media (max-device-width: 435px){
     .tool-pic-test{
         width:65%;
@@ -741,6 +745,10 @@ header{
     }
     #mysql-capt{
         padding-top: 10px;
+    }
+    #jade-logo{
+      width:42%;
+      padding-bottom: 22px;
     }
 
 }
