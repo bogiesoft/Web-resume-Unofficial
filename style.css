@@ -89,15 +89,9 @@ div{width:100%;}
   font-family:'Oxygen',sans-serif;
   font-size:1.8em;
   color:white;
-  /*padding-bottom:2em; */
   text-align:center;
 }
 @media screen and (max-width: 420px){
-  /*#welcome-paragraph{
-    font-size:2em;
-    color: white;
-    padding-top: 3em;
-  }*/
   #my-name{
     font-size: 2.5em;
     color:#CDDC39;
