@@ -428,7 +428,10 @@ header{
     .visible-phone-line {
         visibility: visible;
         width:92.1875%;
-        margin-top:2vh;
+        margin-top:2.5em;
+    }
+    #contact-info{
+        bottom: 1.5em;
     }
 }
 @media(max-device-width:768px){
