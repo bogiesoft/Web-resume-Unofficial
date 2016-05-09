@@ -255,7 +255,7 @@ header{
 .section-logo-test{
     position:relative;
     width:10%;
-    border-radius:20%;
+    border-radius:10%;
     border:2px solid white;
     top:5em;
     background-color: #0288D1;
@@ -687,11 +687,17 @@ header{
     width:45%;
 }
 #do-caption{
-    padding-top: 32px;
+    padding-top: 20px;
 }
 #jade-logo{
   width:20%;
   padding-bottom: 20px;
+}
+#less-logo{
+  margin-top: 10px;
+}
+#less-capt{
+  padding-top: 32px;
 }
 @media (max-device-width: 435px){
     .tool-pic-test{
@@ -729,8 +735,8 @@ header{
   #do-caption{
      padding-top: 17px;
   }
-  #less-capt{
-    margin-top: 30px;
+  #jade-capt{
+    margin-top: 7px;
   }
 }
 
