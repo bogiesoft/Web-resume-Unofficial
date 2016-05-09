@@ -4703,8 +4703,8 @@ footer.page-footer .footer-copyright {
 .btn,
 .btn-large {
     text-decoration: none;
-    color: #0288d1;
-    background-color: #ffffff;
+    color: #FFFFFF;
+    background-color: #0288d1;
     text-align: center;
     letter-spacing: .5px;
     transition: .2s ease-out;
@@ -4713,7 +4713,7 @@ footer.page-footer .footer-copyright {
 
 .btn:hover,
 .btn-large:hover {
-    background-color: #0288d1;
+    background-color: #304FFE;
     color: #ffffff;
 }
 

@@ -464,9 +464,9 @@ header{
 #pdf-butt{
     font-size:20px;
     text-decoration: none;
-    border:1px solid transparent/*#0288d1*/;
-    background-color: transparent/*#0288d1*/;
-    color: #0288d1;
+    border:1px solid #0288d1;
+    background-color: #0288d1;
+    color: #FFFFFF;
     width:250px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -483,8 +483,8 @@ header{
 }
 #pdf-butt:hover{
     color:#ffffff;
-    border:1px solid #0288d1;
-    background-color: #0288d1;
+    border:1px solid #304FFE;
+    background-color: #304FFE;
     -webkit-transition-duration: 0.5s; /* Safari */
     transition-duration: 0.5s;
 }
