@@ -679,12 +679,12 @@ header{
 
 }
 .tool-pic-test{
-    width:30%;
+    width:35%;
     padding-top: 2em;
     padding-bottom: 1em;
 }
 #apache-logo{
-    width:19%;
+    width:22%;
 }
 #mysql-logo{
     width:45%;
@@ -700,23 +700,23 @@ header{
   margin-top: 10px;
 }
 #less-capt{
-  padding-top: 32px;
+  padding-top: 29px;
 }
 @media (max-device-width: 435px){
     .tool-pic-test{
         width:65%;
     }
     #apache-logo{
-        width: 28%;
+        width: 30%;
     }
     #do-caption{
         padding-top: 2px;
     }
     #mysql-logo{
-        width:85%;
+        width:90%;
     }
     #mysql-capt{
-        padding-top: 10px;
+        padding-top: 15px;
     }
     #jade-logo{
       width:42%;
