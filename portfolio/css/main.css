@@ -787,11 +787,16 @@ header{
 .act-row{
     padding-top: 2em;
 }
+#title-act{
+    font-family:Montserrat,sans-serif;
+    font-size: 18px;
+    color: #01579B;    
+}
 .act-list{
     font-family:Montserrat,sans-serif;
     font-size: 15px;
     color: #01579B;
-    padding-top: 3em;
+    padding-top: 2em;
 }
 .act-li{
     list-style-type: disc;
