@@ -423,6 +423,9 @@ header{
 #my-name{
   font-size: 30px;
 }
+#my-name-th{
+  font-size: 20px;
+}
 .visible-phone-line{visibility: hidden;}
 @media screen and (max-device-width: 435px) {
     .visible-phone-line {
@@ -433,6 +436,13 @@ header{
     #contact-info{
         bottom: 1.5em;
     }
+    #my-name{
+      font-size: 25px;
+    }
+    #my-name-th{
+      font-size: 17px;
+    }
+
 }
 @media(max-device-width:768px){
   #my-name{
@@ -707,7 +717,10 @@ header{
         width:65%;
     }
     #apache-logo{
-        width: 30%;
+        width: 27%;
+    }
+    #apache-capt{
+      padding-top: 3px;
     }
     #do-caption{
         padding-top: 2px;
@@ -716,11 +729,11 @@ header{
         width:90%;
     }
     #mysql-capt{
-        padding-top: 15px;
+        padding-top: 7px;
     }
     #jade-logo{
       width:42%;
-      padding-bottom: 22px;
+      padding-bottom: 21px;
     }
     #nginx-capt{
         padding-top: 10px;
