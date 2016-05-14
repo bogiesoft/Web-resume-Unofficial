@@ -483,8 +483,8 @@ header{
     width:250px;
     padding-top: 15px;
     padding-bottom: 15px;
-    -webkit-transition-duration: 0.5s; /* Safari */
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
     border-radius: 3px;
 
 }
@@ -498,8 +498,8 @@ header{
     color:#ffffff;
     border:1px solid #304FFE;
     background-color: #304FFE;
-    -webkit-transition-duration: 0.5s; /* Safari */
-    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.7s; /* Safari */
+    transition-duration: 0.7s;
 }
 /*----- education info section -----*/
 
@@ -596,7 +596,7 @@ header{
     border:1px solid white;
     background-color: white;
     padding: 1em;
-    border-radius: 7px;
+    border-radius: 5px;
     padding-bottom: 1em;
     width:50%;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.15);
@@ -812,6 +812,39 @@ header{
     text-align: center;
     padding-top: 2em;
 }
-.footer-link:hover{
-    color: #F57C00;
+
+/*----- Footer section -----*/
+.my-footer{
+    background-color: #8BC34A;
+}
+.footer-row{
+    font-family:Montserrat,sans-serif;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center; 
+}
+.contacts{
+    margin-top: 2em;
+}
+.contacts>a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-right: 5px;
+}
+#ft-fb:hover{
+    color:#3b5998;
+}
+#ft-tw:hover{
+    color:#55acee;
+}
+#ft-ig:hover{
+    color:#c13584;
+}
+#ft-gh:hover{
+    color:#333333;
+}
+@media screen and(max-device-width:435px){
+    #p1{font-size: 20px;}
+    #p2{font-size: 18px;}
+    #p3{font-size: 17px;}
 }

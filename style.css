@@ -101,20 +101,22 @@ div{width:100%;}
 .entersite-butt{
   font-family:'Oxygen',sans-serif;
   font-size:19px;
-  border:2px solid transparent;
+  border:2px solid #FFEE58;
   background-color: transparent;
   color: #FFEE58;
   width:220px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 2.5em;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration: 0.7s;
   border-radius: 3px;
 }
 .entersite-butt:hover{
   background-color: #FFEE58;
   color:#00BCD4;
+  -webkit-transition-duration: 0.7s; /* Safari */
+  transition-duration: 0.7s;
   box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
 }
 @media screen and (max-width: 420px) {
