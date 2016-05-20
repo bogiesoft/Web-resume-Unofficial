@@ -659,7 +659,7 @@ header{
   padding-bottom: 20px;
 }
 #less-logo{
-  margin-top: 10px;
+  margin-top: 15px;
 }
 #less-capt{
   padding-top: 29px;
@@ -690,10 +690,16 @@ header{
     #nginx-capt{
         padding-top: 10px;
     }
+    #less-logo{
+        margin-bottom: 7px;
+    }
+    #less-capt{
+        margin-bottom: 20px;
+    }
 }
 @media (width: 320px){
     #apache-logo{
-        padding-bottom: 17px;
+        padding-top: -12px;
     }
 }
 @media (min-device-width:436px) and (max-device-width:768px){
