@@ -133,6 +133,7 @@ div{width:100%;}
 .entersite-butt{
   font-family:'Roboto',sans-serif;
   font-size:19px;
+  font-weight: 500;
   border:2px solid #FFEE58;
   background-color: transparent;
   color: #FFEE58;
