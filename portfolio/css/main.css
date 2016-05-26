@@ -649,7 +649,7 @@ header{
     width:22%;
 }
 #mysql-logo{
-    width:45%;
+    width:50%;
 }
 #do-caption{
     padding-top: 20px;
@@ -681,7 +681,7 @@ header{
         width:90%;
     }
     #mysql-capt{
-        padding-top: 7px;
+        padding-top: 5px;
     }
     #jade-logo{
       width:42%;
