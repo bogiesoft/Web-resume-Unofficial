@@ -623,14 +623,14 @@ header{
     padding-top: 20px;
 }
 #jade-logo{
-  width:20%;
-  padding-bottom: 20px;
+  width:25%;
+  padding-bottom: 23px;
 }
 #less-logo{
-  margin-top: 15px;
+  margin-top: 20px;
 }
 #less-capt{
-  padding-top: 29px;
+  padding-top: 22px;
 }
 @media (max-device-width: 435px){
     .tool-pic-test{
@@ -669,6 +669,7 @@ header{
     #apache-logo{
         padding-top: -12px;
     }
+    
 }
 @media (min-device-width:436px) and (max-device-width:768px){
   #jade-logo{
@@ -680,6 +681,7 @@ header{
   #jade-capt{
     margin-top: 7px;
   }
+  
 }
 
 .tool-sub-header{
