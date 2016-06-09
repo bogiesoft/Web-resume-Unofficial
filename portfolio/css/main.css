@@ -613,14 +613,23 @@ header{
     padding-top: 2em;
     padding-bottom: 1em;
 }
+#do-logo{
+    width:45%;
+}
 #apache-logo{
     width:22%;
 }
-#mysql-logo{
-    width:50%;
+#apache-capt{
+    margin-top: 10px;
 }
-#do-caption{
+#mysql-logo{
+    width:60%;
+}
+#do-capt{
     padding-top: 20px;
+}
+#atom-capt{
+    margin-top: 10px;
 }
 #jade-logo{
   width:25%;
@@ -632,6 +641,9 @@ header{
 #less-capt{
   padding-top: 22px;
 }
+#ads-capt{
+    margin-top: 2px;
+}
 @media (max-device-width: 435px){
     .tool-pic-test{
         width:65%;
@@ -642,8 +654,11 @@ header{
     #apache-capt{
       padding-top: 3px;
     }
+    #do-logo{
+        width:70%;
+    }
     #do-caption{
-        padding-top: 2px;
+        padding-top: 9px;
     }
     #mysql-logo{
         width:90%;
@@ -664,6 +679,7 @@ header{
     #less-capt{
         margin-bottom: 20px;
     }
+
 }
 @media (width: 320px){
     #apache-logo{
@@ -680,6 +696,9 @@ header{
   }
   #jade-capt{
     margin-top: 7px;
+  }
+  #less-capt{
+      margin-top: 10px;
   }
   
 }
