@@ -625,8 +625,11 @@ header{
 #mysql-logo{
     width:60%;
 }
+#nginx-capt{
+    padding-top:5px;
+}
 #do-capt{
-    padding-top: 20px;
+    padding-top: 17px;
 }
 #atom-capt{
     margin-top: 10px;
@@ -657,8 +660,8 @@ header{
     #do-logo{
         width:70%;
     }
-    #do-caption{
-        padding-top: 9px;
+    #do-capt{
+        padding-top: 7px;
     }
     #mysql-logo{
         width:90%;
