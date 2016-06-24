@@ -160,6 +160,7 @@
 /*----- global -----*/
 body {
     background-color:#e0e0e0;
+    font-family: "Kanit",sans-serif;
 }
 .row{width: 100%;}
 header{
@@ -341,9 +342,11 @@ header{
     padding-top: 5em;
 }
 #my-name{
+  font-family: "Kanit",sans-serif;  
   font-size: 30px;
 }
 #my-name-th{
+  font-family: "Kanit",sans-serif;  
   font-size: 20px;
 }
 .visible-phone-line{visibility: hidden;}
@@ -642,12 +645,12 @@ header{
   width:25%;
   padding-bottom: 23px;
 }
-#less-logo{
+/*#less-logo{
   margin-top: 20px;
 }
 #less-capt{
   padding-top: 22px;
-}
+}*/
 #ads-capt{
     margin-top: 2px;
 }
