@@ -164,7 +164,7 @@ body {
 }
 .row{width: 100%;}
 header{
-    background-color:#009688;
+    background-color:#1a9085;
     width:100%;
     height:500px;
     display:table;
@@ -175,11 +175,11 @@ header{
 }
 .section-logo-test{
     position:relative;
-    width:12%;
+    width:10%;
     border-radius:100%;
     border:2px solid white;
     top:5em;
-    background-color: #0288D1;
+    background-color: #1a9085;
 }
 @media (max-device-width:435px){
     .section-logo-test{
@@ -214,7 +214,7 @@ header{
     width: 50px;
     height: 50px;
     text-align: center;
-    background: #00BCD4;
+    background: #1a9085;
     color: white;
     border-radius: 100%;
     text-decoration: none;
@@ -222,7 +222,7 @@ header{
     opacity: 0;
 }
 #back-to-top:hover {
-    background-color:#0097A7;
+    background-color:#4CAF50;
     color: #E0E0E0;
 }
 #back-to-top.show {
@@ -322,7 +322,7 @@ header{
     }
 }
 .my-info{
-    background-color: #424242;
+    background-color: #ffffff;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -337,7 +337,7 @@ header{
     font-family: 'Noto Sans',sans-serif;
     font-size:20px;
     font-weight: 400;
-    color:#CDDC39;
+    color:#1a9085;
     text-align: center;
     padding-top: 5em;
 }
@@ -378,7 +378,7 @@ header{
 #contact-info{
     font-family: 'Open Sans', sans-serif;
     font-size:35px;
-    color:#CDDC39;
+    color:#1a9085;
     text-align: center;
     padding-top: 3em;
     padding-bottom: 2em;
@@ -400,9 +400,9 @@ header{
 #pdf-butt{
     font-size:20px;
     text-decoration: none;
-    border:1px solid #CDDC39;
-    background-color: #CDDC39;
-    color: #000000;
+    border:1px solid #1a9085;
+    background-color: #1a9085;
+    color: #ffffff;
     width:250px;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -427,7 +427,7 @@ header{
 /*----- education info section -----*/
 
 .education{
-    background-color: #0288D1;
+    background-color: #1a9085;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -459,9 +459,7 @@ header{
     border:1px solid white;
     background-color: white;
     padding: 3em;
-    /*border-radius: 5px;*/
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
 }
 @media screen and (max-device-width: 435px){
@@ -472,9 +470,7 @@ header{
     border:1px solid white;
     background-color: white;
     padding: 3em;
-    /*border-radius: 7px;*/
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-radius: 5px;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 8px 0 rgba(0, 0, 0, 0.19);
 }
 .cu-name{
@@ -486,7 +482,7 @@ header{
 }
 /*----- interesting section -----*/
 .interest{
-    background-color: #424242;
+    background-color: #ffffff;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.15);
@@ -496,8 +492,8 @@ header{
     padding-bottom: 5em;
 }
 .int-pic-test{
-    border:1px solid #CDDC39;
-    background-color: #CDDC39;
+    border:1px solid #1a9085;
+    background-color: #1a9085;
     padding: 2em;
     border-radius: 5px;
     width:55%;
@@ -507,13 +503,13 @@ header{
     font-family:'Nunito',sans-serif;
     font-size: 23px;
     font-weight: 200;
-    color:#ffffff;
+    color:#1a9085;
     padding-top: 1em;
     text-align: center;
 }
 /*----- Programming skills section -----*/
 .skills{
-  background-color: #0288D1;
+  background-color: #1a9085;
     width:90%;
     border-radius: 10px;
     box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
@@ -717,12 +713,12 @@ header{
     font-family:Noto Sans,sans-serif;
     font-size: 20px;
     font-weight: 500;
-    color:#01579B;
+    color:#1a9085;
     text-align: center;
 }
 /*----- projects section -----*/
 .projects{
-    background-color:#0288D1;
+    background-color:#1a9085;
     width:90%;
     border-radius: 10px;
     padding-bottom: 3em;
@@ -747,12 +743,12 @@ header{
 #title-act{
     font-family:Montserrat,sans-serif;
     font-size: 18px;
-    color: #01579B;    
+    color: #1a9085;    
 }
 .act-list{
     font-family:Montserrat,sans-serif;
     font-size: 15px;
-    color: #01579B;
+    color: #1a9085;
     padding-top: 2em;
 }
 .act-li{

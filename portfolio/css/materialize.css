@@ -4703,8 +4703,8 @@ footer.page-footer .footer-copyright {
 .btn,
 .btn-large {
     text-decoration: none;
-    color: #000000;
-    background-color: #CDDC39;
+    color: #ffffff;
+    background-color: #1a9085;
     text-align: center;
     letter-spacing: .5px;
     transition: .2s ease-out;
