@@ -102,7 +102,7 @@ div{width:100%;}
     padding-top: 1em;
   }
 }
-#es-link{
+#es-link,#bws-link{
   text-decoration: none;
 }
 .entersite-butt{
@@ -136,7 +136,7 @@ div{width:100%;}
 }
 #contacts{
   text-align: center;
-  margin-top:7em;
+  margin-top:3em;
 }
 #contacts a button{
   padding:10px;
