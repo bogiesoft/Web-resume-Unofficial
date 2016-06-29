@@ -104,6 +104,10 @@ div{width:100%;}
 }
 #es-link,#bws-link{
   text-decoration: none;
+  display: inline-block;
+}
+#es-link{
+  margin-right: 1em;
 }
 .entersite-butt{
   font-family:'Roboto',sans-serif;
@@ -112,21 +116,23 @@ div{width:100%;}
   border:2px solid #FFD600;
   background-color: transparent;
   color: #FFD600;
-  width:220px;
+  width:205px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 2.5em;
   -webkit-transition-duration: 0.7s; /* Safari */
   transition-duration: 0.7s;
   border-radius: 3px;
+  text-align: center;
 }
 .entersite-butt:hover{
   background-color: #FFEE58;
   border-color:#FFEE58;
   color:#00BCD4;
   -webkit-transition-duration: 0.7s; /* Safari */
-  transition-duration: 0.7s;
+  /*transition-duration: 0.7s;*/
   box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24),0 8px 25px 0 rgba(0,0,0,0.10);
+  transition: all 0.7s ease 0s;
 }
 @media screen and (max-width: 420px) {
    .entersite-butt{

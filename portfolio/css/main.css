@@ -266,9 +266,9 @@ header{
     }
 }
 .arrow{
-    border:1px solid #FF5722;
+    border:1px solid transparent;
     border-radius: 100%;
-    background-color: #FF5722;
+    background-color: #FFC107;
     padding:13px;
     position: relative;
     bottom:2em;
