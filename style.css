@@ -104,11 +104,11 @@ div{width:100%;}
 }
 #es-link,#bws-link{
   text-decoration: none;
-  display: inline-block;
+  /*display: inline-block;*/
 }
-#es-link{
+/*#es-link{
   margin-right: 1em;
-}
+}*/
 .entersite-butt{
   font-family:'Roboto',sans-serif;
   font-size:19px;
