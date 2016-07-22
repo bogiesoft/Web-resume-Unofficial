@@ -728,6 +728,9 @@ header{
 .pic-icon{
     color: white;
 }
+#beleaf{
+    width:50%;
+}
 /*----- activity section -----*/
 .activity{
     width:90%;
@@ -744,6 +747,13 @@ header{
     font-family:Montserrat,sans-serif;
     font-size: 18px;
     color: #1a9085;    
+}
+#title-act1{
+    font-family:Montserrat,sans-serif;
+    font-size: 18px;
+    color: #1a9085;
+    margin-top: 1em;
+    margin-bottom: -0.7em;
 }
 .act-list{
     font-family:Montserrat,sans-serif;
