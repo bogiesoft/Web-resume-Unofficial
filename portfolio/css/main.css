@@ -632,13 +632,13 @@ header{
     padding-top:5px;
 }
 #do-capt{
-    padding-top: 17px;
+    padding-top: 14px;
 }
-#atom-capt{
+/*#atom-capt{
     margin-top: 10px;
-}
-#jade-logo{
-  width:25%;
+}*/
+#wp-logo{
+  width:35%;
   padding-bottom: 23px;
 }
 /*#less-logo{
@@ -672,8 +672,8 @@ header{
     #mysql-capt{
         padding-top: 5px;
     }
-    #jade-logo{
-      width:42%;
+    #wp-logo{
+      width:60%;
       padding-bottom: 21px;
     }
     #nginx-capt{
@@ -694,19 +694,25 @@ header{
     
 }
 @media (min-device-width:436px) and (max-device-width:768px){
-  #jade-logo{
+  #wp-logo{
     padding-top: 18px;
   }
   #do-caption{
      padding-top: 17px;
   }
-  #jade-capt{
+  #wp-capt{
     margin-top: 7px;
   }
-  #less-capt{
+  #wp-capt{
       margin-top: 10px;
   }
-  
+    
+}
+@media (min-device-width:769px) and (max-device-width:1025px){
+   
+   #apache-capt{
+       margin-bottom: 1.2em;
+   }     
 }
 
 .tool-sub-header{
