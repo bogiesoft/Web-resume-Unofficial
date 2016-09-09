@@ -612,112 +612,42 @@ header{
 
 }
 .tool-pic-test{
-    width:40%;
+    width:45%;
     padding-top: 2em;
-    padding-bottom: 1em;
+    /*padding-bottom: 1em;*/
+}
+.tools-caption{
+    padding-top: 5px;
 }
 #do-logo{
-    width:45%;
-}
-/*#apache-logo{
-    width:20%;
-}*/
-/*#apache-capt{
-    margin-top: 10px;
-}*/
-#mysql-logo{
-    width:57%;
-}
-#nginx-capt{
-    padding-top:5px;
+    width:68%;
 }
 #do-capt{
-    padding-top: 14px;
+    padding-top: 5px;
 }
-#angular-icon{
-    width:35%;;
+#wp-capt{
+    padding-top:5px;
 }
-#wp-logo{
-  width:35%;
-  padding-bottom: 23px;
-}
-/*#less-logo{
-  margin-top: 20px;
-}
-#less-capt{
-  padding-top: 22px;
-}*/
 #ads-capt{
-    margin-top: 2px;
+    padding-top: 5px;
 }
+#apache-logo{
+    width:27%;
+}
+
+
+
 @media (max-device-width: 435px){
     .tool-pic-test{
         width:65%;
     }
-    /*#apache-logo{
-        width: 27%;
-    }*/
-    /*#apache-capt{
-      padding-top: 3px;
-    }*/
-    #do-logo{
-        width:70%;
-    }
-    #do-capt{
-        padding-top: 0.97em;
-    }
-    #mysql-logo{
-        width:90%;
-    }
-    #mysql-capt{
-        padding-top: 5px;
-    }
-    #wp-logo{
-      width:60%;
-      padding-bottom: 21px;
-    }
-    /*#nginx-capt{
-        padding-top: 10px;
-    }*/
-    #less-logo{
-        margin-bottom: 7px;
-    }
-    #less-capt{
-        margin-bottom: 20px;
-    }
-    #angular-icon{
-        width:60%;
-    }
-
-}
-@media (width: 320px){
     #apache-logo{
-        padding-top: -12px;
+        width: 38%;
     }
-    
+    #wp-capt{
+        padding-bottom:3px;
+    }
 }
-@media (min-device-width:436px) and (max-device-width:768px){
-  #wp-logo{
-    padding-top: 18px;
-  }
-  #do-caption{
-     padding-top: 17px;
-  }
-  #wp-capt{
-    margin-top: 7px;
-  }
-  #wp-capt{
-      margin-top: 10px;
-  }
-  
-    
-}
-/*@media (min-device-width:769px) and (max-device-width:1025px){
-   
-   #apache-capt{
-       margin-bottom: 1.2em;
-   }     
-}*/
 
 .tool-sub-header{
     font-family:Noto Sans,sans-serif;
