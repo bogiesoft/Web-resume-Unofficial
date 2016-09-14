@@ -31,6 +31,6 @@ gulp.task('minify-css1', function() {
 gulp.task('default',['less','minify-css','minify-css1'],function(){
     gulp.watch("./less/*.less",['less']);
     gulp.watch("./portfolio/css/*.css",['minify-css']);
-    gulp.watch(".css/*.css",['minify-css1']);
+    gulp.watch("./css/*.css",['minify-css1']);
 });
 
