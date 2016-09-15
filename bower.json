@@ -1,0 +1,22 @@
+{
+  "name": "Web-resume-Unofficial",
+  "homepage": "https://github.com/Oeufhp/Web-resume-Unofficial",
+  "authors": [
+    "Pitarn Harnpanichpun <pitarnh@outlook.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.4",
+    "owl.carousel": "^2.1.6"
+  }
+}
