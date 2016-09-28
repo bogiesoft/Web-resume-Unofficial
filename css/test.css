@@ -70,18 +70,20 @@ div {
 }
 #my-name,
 #my-name-th {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Kanit', sans-serif;
   text-align: center;
   color: #FFEB3B;
 }
 #my-name {
-  padding-top: 1em;
-  font-size: 4em;
+  font-size: 3em;
 }
 @media (max-width: 420px) {
   #my-name {
-    font-size: 2.5em;
+    font-size: 2.0em;
   }
+}
+#my-name-th {
+  font-size: 2em;
 }
 #myquote {
   font-size: 1.8em;
@@ -124,11 +126,11 @@ div {
 .entersite-butt {
   font-family: 'Oxygen', sans-serif;
   font-size: 17px;
-  font-weight: 700;
+  font-weight: 600;
   border: 2px solid #FFD600;
   background-color: transparent;
   color: #FFD600;
-  width: 185px;
+  width: 170px;
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: 2.5em;
@@ -150,7 +152,7 @@ div {
 .entersite-butt:hover {
   background-color: #FFEE58;
   border-color: #FFEE58;
-  color: #2196F3;
+  color: #1A9085;
   -webkit-transition-duration: 0.7s;
   /* Safari */
   /*transition-duration: 0.7s;*/
