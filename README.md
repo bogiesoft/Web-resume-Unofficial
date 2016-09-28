@@ -1,2 +1,2 @@
 # Web-resume-Unofficial
-เว็บresumeไม่เป็นทางการ // เเก้ของที่เป็นทางการ
+เว็บresume version ล่าสุด develop by เราเอง (พิธาน หาญพาณิชย์พันธ์ - เอิฟ) 
